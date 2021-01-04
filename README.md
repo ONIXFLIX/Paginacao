@@ -1,3 +1,4 @@
 # PaginacaonumeradaS
-#  confira o modelolo pagina numerada
-#  https://onixflix.blogspot.com/
+# confira o modelo das paginas numeradas
+# https://onixflix.blogspot.com/
+direitos reservados onixflix 2021
