@@ -1,0 +1,4423 @@
+/ *!
+ * Font Awesome Free 5.11.2 por @fontawesome - https://fontawesome.com
+ * Licença - https://fontawesome.com/license/free (Ícones: CC BY 4.0, Fontes: SIL OFL 1.1, Código: Licença MIT)
+ * /
+.fa,
+.fas,
+.longe,
+.fal,
+.mania,
+.fab {
+  -moz-osx-font-smoothing: tons de cinza;
+  -webkit-font-smoothing: suavizado;
+  display: bloco embutido;
+  estilo da fonte: normal;
+  variante da fonte: normal;
+  renderização de texto: automático;
+  altura da linha: 1; }
+
+.fa-lg {
+  tamanho da fonte: 1.33333em;
+  altura da linha: 0,75em;
+  alinhamento vertical: -.0667em; }
+
+.fa-xs {
+  tamanho da fonte: .75em; }
+
+.fa-sm {
+  tamanho da fonte: .875em; }
+
+.fa-1x {
+  tamanho da fonte: 1em; }
+
+.fa-2x {
+  tamanho da fonte: 2em; }
+
+.fa-3x {
+  tamanho da fonte: 3em; }
+
+.fa-4x {
+  tamanho da fonte: 4em; }
+
+.fa-5x {
+  tamanho da fonte: 5em; }
+
+.fa-6x {
+  tamanho da fonte: 6em; }
+
+.fa-7x {
+  tamanho da fonte: 7em; }
+
+.fa-8x {
+  tamanho da fonte: 8em; }
+
+.fa-9x {
+  tamanho da fonte: 9em; }
+
+.fa-10x {
+  tamanho da fonte: 10em; }
+
+.fa-fw {
+  alinhamento de texto: centro;
+  largura: 1,25em; }
+
+.fa-ul {
+  tipo de estilo de lista: nenhum;
+  margem esquerda: 2,5em;
+  padding-left: 0; }
+  .fa-ul> li {
+    posição: relativa; }
+
+.fa-li {
+  esquerda: -2em;
+  posição: absoluta;
+  alinhamento de texto: centro;
+  largura: 2em;
+  altura da linha: herdar; }
+
+.fa-border {
+  borda: sólido 0,08em #eee;
+  raio da borda: .1em;
+  preenchimento: .2em .25em .15em; }
+
+.fa-pull-left {
+  flutuar: esquerda; }
+
+.fa-pull-right {
+  flutuar: certo; }
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margem direita: .3em; }
+
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margem esquerda: .3em; }
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s linear infinito;
+          animação: fa-spin 2s linear infinito; }
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinitos passos (8);
+          animação: passos infinitos fa-spin 1s (8); }
+
+@ -webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate (0deg);
+            transformar: girar (0deg); }
+  100% {
+    -webkit-transform: girar (360deg);
+            transformar: girar (360deg); }}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate (0deg);
+            transformar: girar (0deg); }
+  100% {
+    -webkit-transform: girar (360deg);
+            transformar: girar (360deg); }}
+
+.fa-rotate-90 {
+  -ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotação = 1)";
+  -webkit-transform: rotate (90deg);
+          transformar: girar (90deg); }
+
+.fa-rotate-180 {
+  -ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotação = 2)";
+  -webkit-transform: girar (180deg);
+          transformar: girar (180deg); }
+
+.fa-rotate-270 {
+  -ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotação = 3)";
+  -webkit-transform: girar (270deg);
+          transformar: girar (270deg); }
+
+.fa-flip-horizontal {
+  -ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotação = 0, espelho = 1)";
+  -webkit-transformada: escala (-1, 1);
+          transformar: escala (-1, 1); }
+
+.fa-flip-vertical {
+  -ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotação = 2, espelho = 1)";
+  -webkit-transform: escala (1, -1);
+          transformar: escala (1, -1); }
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid: DXImageTransform.Microsoft.BasicImage (rotação = 2, espelho = 1)";
+  -webkit-transform: escala (-1, -1);
+          transformar: escala (-1, -1); }
+
+: root .fa-rotate-90,
+: root .fa-rotate-180,
+: root .fa-rotate-270,
+: root .fa-flip-horizontal,
+: root .fa-flip-vertical,
+: root .fa-flip-both {
+  -webkit-filter: nenhum;
+          filtro: nenhum; }
+
+.fa-stack {
+  display: bloco embutido;
+  altura: 2em;
+  altura da linha: 2em;
+  posição: relativa;
+  alinhamento vertical: meio;
+  largura: 2,5em; }
+
+.fa-stack-1x,
+.fa-stack-2x {
+  esquerda: 0;
+  posição: absoluta;
+  alinhamento de texto: centro;
+  largura: 100%; }
+
+.fa-stack-1x {
+  altura da linha: herdar; }
+
+.fa-stack-2x {
+  tamanho da fonte: 2em; }
+
+.fa-inverse {
+  cor: #fff; }
+
+/ * Font Awesome usa Unicode Private Use Area (PUA) para garantir a tela
+leitores não lêem caracteres aleatórios que representam ícones * /
+.fa-500px: antes de {
+  conteúdo: "\ f26e"; }
+
+ícone .fa-acessível: antes de {
+  conteúdo: "\ f368"; }
+
+.fa-accusoft: antes de {
+  conteúdo: "\ f369"; }
+
+.fa-Aquisições incorporadas: antes de {
+  conteúdo: "\ f6af"; }
+
+.fa-ad: antes de {
+  conteúdo: "\ f641"; }
+
+.fa-address-book: antes de {
+  conteúdo: "\ f2b9"; }
+
+.fa-address-card: antes de {
+  conteúdo: "\ f2bb"; }
+
+.fa-ajustar: antes de {
+  conteúdo: "\ f042"; }
+
+.fa-adn: antes de {
+  conteúdo: "\ f170"; }
+
+.fa-adobe: before {
+  conteúdo: "\ f778"; }
+
+.fa-adversal: antes de {
+  conteúdo: "\ f36a"; }
+
+.fa-affiliatetheme: before {
+  conteúdo: "\ f36b"; }
+
+.fa-ambientador: antes de {
+  conteúdo: "\ f5d0"; }
+
+.fa-airbnb: antes de {
+  conteúdo: "\ f834"; }
+
+.fa-algolia: antes de {
+  conteúdo: "\ f36c"; }
+
+.fa-align-center: antes de {
+  conteúdo: "\ f037"; }
+
+.fa-align-justify: antes de {
+  conteúdo: "\ f039"; }
+
+.fa-align-left: before {
+  conteúdo: "\ f036"; }
+
+.fa-align-right: before {
+  conteúdo: "\ f038"; }
+
+.fa-alipay: antes de {
+  conteúdo: "\ f642"; }
+
+.fa-alergias: antes de {
+  conteúdo: "\ f461"; }
+
+.fa-amazon: antes de {
+  conteúdo: "\ f270"; }
+
+.fa-amazon-pay: antes de {
+  conteúdo: "\ f42c"; }
+
+.fa-ambulância: antes de {
+  conteúdo: "\ f0f9"; }
+
+.fa-american-sign-language-interpreting: before {
+  conteúdo: "\ f2a3"; }
+
+.fa-amilia: antes de {
+  conteúdo: "\ f36d"; }
+
+.fa-anchor: antes de {
+  conteúdo: "\ f13d"; }
+
+.fa-android: antes de {
+  conteúdo: "\ f17b"; }
+
+.fa-angellist: before {
+  conteúdo: "\ f209"; }
+
+.fa-angle-double-down: before {
+  conteúdo: "\ f103"; }
+
+.fa-ângulo-duplo-esquerdo: antes de {
+  conteúdo: "\ f100"; }
+
+.fa-ângulo-duplo-direito: antes de {
+  conteúdo: "\ f101"; }
+
+.fa-angle-double-up: antes de {
+  conteúdo: "\ f102"; }
+
+.fa-ângulo para baixo: antes de {
+  conteúdo: "\ f107"; }
+
+.fa-angle-left: before {
+  conteúdo: "\ f104"; }
+
+.fa-angle-right: before {
+  conteúdo: "\ f105"; }
+
+.fa-angle-up: before {
+  conteúdo: "\ f106"; }
+
+.fa-angry: before {
+  conteúdo: "\ f556"; }
+
+.fa-angrycreative: antes de {
+  conteúdo: "\ f36e"; }
+
+.fa-angular: antes de {
+  conteúdo: "\ f420"; }
+
+.fa-ankh: antes de {
+  conteúdo: "\ f644"; }
+
+.fa-app-store: antes de {
+  conteúdo: "\ f36f"; }
+
+.fa-app-store-ios: antes de {
+  conteúdo: "\ f370"; }
+
+.fa-apper: antes de {
+  conteúdo: "\ f371"; }
+
+.fa-apple: antes de {
+  conteúdo: "\ f179"; }
+
+.fa-apple-alt: antes de {
+  conteúdo: "\ f5d1"; }
+
+.fa-apple-pay: antes de {
+  conteúdo: "\ f415"; }
+
+.fa-archive: before {
+  conteúdo: "\ f187"; }
+
+.fa-archway: before {
+  conteúdo: "\ f557"; }
+
+.fa-arrow-alt-circle-down: before {
+  conteúdo: "\ f358"; }
+
+.fa-arrow-alt-circle-left: before {
+  conteúdo: "\ f359"; }
+
+.fa-arrow-alt-circle-right: antes de {
+  conteúdo: "\ f35a"; }
+
+.fa-arrow-alt-circle-up: antes de {
+  conteúdo: "\ f35b"; }
+
+.fa-arrow-circle-down: before {
+  conteúdo: "\ f0ab"; }
+
+.fa-arrow-circle-left: before {
+  conteúdo: "\ f0a8"; }
+
+.fa-arrow-circle-right: before {
+  conteúdo: "\ f0a9"; }
+
+.fa-arrow-circle-up: before {
+  conteúdo: "\ f0aa"; }
+
+.fa-arrow-down: before {
+  conteúdo: "\ f063"; }
+
+.fa-arrow-left: before {
+  conteúdo: "\ f060"; }
+
+.fa-arrow-right: before {
+  conteúdo: "\ f061"; }
+
+.fa-arrow-up: antes de {
+  conteúdo: "\ f062"; }
+
+.fa-arrows-alt: before {
+  conteúdo: "\ f0b2"; }
+
+.fa-arrows-alt-h: before {
+  conteúdo: "\ f337"; }
+
+.fa-flechas-alt-v: antes de {
+  conteúdo: "\ f338"; }
+
+.fa-artstation: antes de {
+  conteúdo: "\ f77a"; }
+
+.fa-assistive-listening-systems: before {
+  conteúdo: "\ f2a2"; }
+
+.fa-asterisco: antes de {
+  conteúdo: "\ f069"; }
+
+.fa-asymmetrik: before {
+  conteúdo: "\ f372"; }
+
+.fa-at: antes de {
+  conteúdo: "\ f1fa"; }
+
+.fa-atlas: antes de {
+  conteúdo: "\ f558"; }
+
+.fa-atlassian: antes de {
+  conteúdo: "\ f77b"; }
+
+.fa-atom: antes de {
+  conteúdo: "\ f5d2"; }
+
+.fa-audible: antes de {
+  conteúdo: "\ f373"; }
+
+.fa-audio-description: antes de {
+  conteúdo: "\ f29e"; }
+
+.fa-autoprefixer: antes de {
+  conteúdo: "\ f41c"; }
+
+.fa-avianex: antes de {
+  conteúdo: "\ f374"; }
+
+.fa-aviato: antes de {
+  conteúdo: "\ f421"; }
+
+.fa-award: antes de {
+  conteúdo: "\ f559"; }
+
+.fa-aws: antes de {
+  conteúdo: "\ f375"; }
+
+.fa-baby: antes de {
+  conteúdo: "\ f77c"; }
+
+.fa-carrinho de bebê: antes de {
+  conteúdo: "\ f77d"; }
+
+.fa-backspace: antes de {
+  conteúdo: "\ f55a"; }
+
+.fa-backward: before {
+  conteúdo: "\ f04a"; }
+
+.fa-bacon: antes de {
+  conteúdo: "\ f7e5"; }
+
+.fa-balance-scale: antes de {
+  conteúdo: "\ f24e"; }
+
+.fa-balance-scale-left: before {
+  conteúdo: "\ f515"; }
+
+.fa-balance-scale-right: antes de {
+  conteúdo: "\ f516"; }
+
+.fa-ban: antes de {
+  conteúdo: "\ f05e"; }
+
+.fa-band-aid: antes de {
+  conteúdo: "\ f462"; }
+
+.fa-bandcamp: antes de {
+  conteúdo: "\ f2d5"; }
+
+.fa-barcode: before {
+  conteúdo: "\ f02a"; }
+
+.fa-bars: antes de {
+  conteúdo: "\ f0c9"; }
+
+.fa-baseball-ball: antes de {
+  conteúdo: "\ f433"; }
+
+.fa-basketball-ball: antes de {
+  conteúdo: "\ f434"; }
+
+.fa-banho: antes de {
+  conteúdo: "\ f2cd"; }
+
+.fa-bateria vazia: antes de {
+  conteúdo: "\ f244"; }
+
+.fa-battery-full: before {
+  conteúdo: "\ f240"; }
+
+.fa-battery-half: before {
+  conteúdo: "\ f242"; }
+
+.fa-battery-quarter: before {
+  conteúdo: "\ f243"; }
+
+.fa-battery-three-quarter: before {
+  conteúdo: "\ f241"; }
+
+.fa-battle-net: antes de {
+  conteúdo: "\ f835"; }
+
+.fa-bed: antes de {
+  conteúdo: "\ f236"; }
+
+.fa-beer: antes de {
+  conteúdo: "\ f0fc"; }
+
+.fa-behance: antes de {
+  conteúdo: "\ f1b4"; }
+
+.fa-behance-square: antes de {
+  conteúdo: "\ f1b5"; }
+
+.fa-bell: antes de {
+  conteúdo: "\ f0f3"; }
+
+.fa-bell-slash: antes de {
+  conteúdo: "\ f1f6"; }
+
+.fa-bezier-curve: before {
+  conteúdo: "\ f55b"; }
+
+.fa-bible: antes de {
+  conteúdo: "\ f647"; }
+
+.fa-bicicleta: antes de {
+  conteúdo: "\ f206"; }
+
+.fa-biking: antes de {
+  conteúdo: "\ f84a"; }
+
+.fa-bimobject: before {
+  conteúdo: "\ f378"; }
+
+.fa-binóculos: antes de {
+  conteúdo: "\ f1e5"; }
+
+.fa-biohazard: antes de {
+  conteúdo: "\ f780"; }
+
+.fa-bolo de aniversário: antes de {
+  conteúdo: "\ f1fd"; }
+
+.fa-bitbucket: antes de {
+  conteúdo: "\ f171"; }
+
+.fa-bitcoin: antes de {
+  conteúdo: "\ f379"; }
+
+.fa-bity: antes de {
+  conteúdo: "\ f37a"; }
+
+.fa-black-tie: antes de {
+  conteúdo: "\ f27e"; }
+
+.fa-blackberry: antes de {
+  conteúdo: "\ f37b"; }
+
+.fa-blender: antes de {
+  conteúdo: "\ f517"; }
+
+.fa-blender-phone: antes de {
+  conteúdo: "\ f6b6"; }
+
+.fa-blind: antes de {
+  conteúdo: "\ f29d"; }
+
+.fa-blog: antes de {
+  conteúdo: "\ f781"; }
+
+.fa-blogger: antes de {
+  conteúdo: "\ f37c"; }
+
+.fa-blogger-b: antes de {
+  conteúdo: "\ f37d"; }
+
+.fa-bluetooth: antes de {
+  conteúdo: "\ f293"; }
+
+.fa-bluetooth-b: antes de {
+  conteúdo: "\ f294"; }
+
+.fa-bold: antes de {
+  conteúdo: "\ f032"; }
+
+.fa-bolt: antes de {
+  conteúdo: "\ f0e7"; }
+
+.fa-bomb: antes de {
+  conteúdo: "\ f1e2"; }
+
+.fa-bone: antes de {
+  conteúdo: "\ f5d7"; }
+
+.fa-bong: antes de {
+  conteúdo: "\ f55c"; }
+
+.fa-book: antes de {
+  conteúdo: "\ f02d"; }
+
+.fa-book-dead: before {
+  conteúdo: "\ f6b7"; }
+
+.fa-book-medical: before {
+  conteúdo: "\ f7e6"; }
+
+.fa-book-open: antes de {
+  conteúdo: "\ f518"; }
+
+.fa-book-reader: antes de {
+  conteúdo: "\ f5da"; }
+
+.fa-bookmark: antes de {
+  conteúdo: "\ f02e"; }
+
+.fa-bootstrap: antes de {
+  conteúdo: "\ f836"; }
+
+.fa-border-all: antes de {
+  conteúdo: "\ f84c"; }
+
+.fa-border-none: before {
+  conteúdo: "\ f850"; }
+
+.fa-border-style: before {
+  conteúdo: "\ f853"; }
+
+.fa-bowling-ball: antes de {
+  conteúdo: "\ f436"; }
+
+.fa-box: antes de {
+  conteúdo: "\ f466"; }
+
+.fa-box-open: antes de {
+  conteúdo: "\ f49e"; }
+
+.fa-boxes: antes de {
+  conteúdo: "\ f468"; }
+
+.fa-braille: antes de {
+  conteúdo: "\ f2a1"; }
+
+.fa-brain: before {
+  conteúdo: "\ f5dc"; }
+
+.fa-bread-slice: antes de {
+  conteúdo: "\ f7ec"; }
+
+.fa-maleta: antes de {
+  conteúdo: "\ f0b1"; }
+
+.fa-maleta-médica: antes de {
+  conteúdo: "\ f469"; }
+
+.fa-broadcast-tower: antes de {
+  conteúdo: "\ f519"; }
+
+.fa-broom: antes de {
+  conteúdo: "\ f51a"; }
+
+.fa-brush: antes de {
+  conteúdo: "\ f55d"; }
+
+.fa-btc: antes de {
+  conteúdo: "\ f15a"; }
+
+.fa-buffer: antes de {
+  conteúdo: "\ f837"; }
+
+.fa-bug: before {
+  conteúdo: "\ f188"; }
+
+.fa-building: antes de {
+  conteúdo: "\ f1ad"; }
+
+.fa-megafone: antes de {
+  conteúdo: "\ f0a1"; }
+
+.fa-bullseye: antes de {
+  conteúdo: "\ f140"; }
+
+.fa-burn: before {
+  conteúdo: "\ f46a"; }
+
+.fa-buromobelexperte: before {
+  conteúdo: "\ f37f"; }
+
+.fa-bus: antes de {
+  conteúdo: "\ f207"; }
+
+.fa-bus-alt: antes de {
+  conteúdo: "\ f55e"; }
+
+.fa-business-time: antes de {
+  conteúdo: "\ f64a"; }
+
+.fa-buy-n-large: antes de {
+  conteúdo: "\ f8a6"; }
+
+.fa-buysellads: antes de {
+  conteúdo: "\ f20d"; }
+
+.fa-calculator: antes de {
+  conteúdo: "\ f1ec"; }
+
+.fa-calendar: antes de {
+  conteúdo: "\ f133"; }
+
+.fa-calendar-alt: antes de {
+  conteúdo: "\ f073"; }
+
+.fa-calendar-check: antes de {
+  conteúdo: "\ f274"; }
+
+.fa-calendar-day: before {
+  conteúdo: "\ f783"; }
+
+.fa-calendar-minus: antes de {
+  conteúdo: "\ f272"; }
+
+.fa-calendar-plus: antes de {
+  conteúdo: "\ f271"; }
+
+.fa-calendar-times: before {
+  conteúdo: "\ f273"; }
+
+.fa-calendar-week: before {
+  conteúdo: "\ f784"; }
+
+.fa-camera: antes de {
+  conteúdo: "\ f030"; }
+
+.fa-camera-retro: antes de {
+  conteúdo: "\ f083"; }
+
+.fa-campground: antes de {
+  conteúdo: "\ f6bb"; }
+
+.fa-canadian-maple-leaf: antes de {
+  conteúdo: "\ f785"; }
+
+.fa-candy-cane: antes de {
+  conteúdo: "\ f786"; }
+
+.fa-cannabis: antes de {
+  conteúdo: "\ f55f"; }
+
+.fa-capsules: before {
+  conteúdo: "\ f46b"; }
+
+.fa-car: antes de {
+  conteúdo: "\ f1b9"; }
+
+.fa-car-alt: antes de {
+  conteúdo: "\ f5de"; }
+
+.fa-car-battery: antes de {
+  conteúdo: "\ f5df"; }
+
+.fa-car-crash: before {
+  conteúdo: "\ f5e1"; }
+
+.fa-car-side: before {
+  conteúdo: "\ f5e4"; }
+
+.fa-caret-down: antes de {
+  conteúdo: "\ f0d7"; }
+
+.fa-caret-left: before {
+  conteúdo: "\ f0d9"; }
+
+.fa-caret-right: before {
+  conteúdo: "\ f0da"; }
+
+.fa-caret-square-down: antes de {
+  conteúdo: "\ f150"; }
+
+.fa-caret-square-left: before {
+  conteúdo: "\ f191"; }
+
+.fa-caret-square-right: antes de {
+  conteúdo: "\ f152"; }
+
+.fa-caret-square-up: antes de {
+  conteúdo: "\ f151"; }
+
+.fa-caret-up: antes de {
+  conteúdo: "\ f0d8"; }
+
+.fa-carrot: antes de {
+  conteúdo: "\ f787"; }
+
+.fa-cart-arrow-down: before {
+  conteúdo: "\ f218"; }
+
+.fa-cart-plus: antes de {
+  conteúdo: "\ f217"; }
+
+.fa-cash-register: antes de {
+  conteúdo: "\ f788"; }
+
+.fa-cat: antes de {
+  conteúdo: "\ f6be"; }
+
+.fa-cc-amazon-pay: antes de {
+  conteúdo: "\ f42d"; }
+
+.fa-cc-amex: antes de {
+  conteúdo: "\ f1f3"; }
+
+.fa-cc-apple-pay: antes de {
+  conteúdo: "\ f416"; }
+
+.fa-cc-diners-club: antes de {
+  conteúdo: "\ f24c"; }
+
+.fa-cc-discover: antes de {
+  conteúdo: "\ f1f2"; }
+
+.fa-cc-jcb: antes de {
+  conteúdo: "\ f24b"; }
+
+.fa-cc-mastercard: antes de {
+  conteúdo: "\ f1f1"; }
+
+.fa-cc-paypal: antes de {
+  conteúdo: "\ f1f4"; }
+
+.fa-cc-stripe: antes de {
+  conteúdo: "\ f1f5"; }
+
+.fa-cc-visa: antes de {
+  conteúdo: "\ f1f0"; }
+
+.fa-centercode: antes de {
+  conteúdo: "\ f380"; }
+
+.fa-centos: antes de {
+  conteúdo: "\ f789"; }
+
+.fa-certificate: before {
+  conteúdo: "\ f0a3"; }
+
+.fa-chair: antes de {
+  conteúdo: "\ f6c0"; }
+
+.fa-lousa: antes de {
+  conteúdo: "\ f51b"; }
+
+.fa-lousa-professor: antes de {
+  conteúdo: "\ f51c"; }
+
+.fa-charge-station: antes de {
+  conteúdo: "\ f5e7"; }
+
+.fa-chart-area: antes de {
+  conteúdo: "\ f1fe"; }
+
+.fa-chart-bar: before {
+  conteúdo: "\ f080"; }
+
+.fa-chart-line: antes de {
+  conteúdo: "\ f201"; }
+
+.fa-chart-pie: antes de {
+  conteúdo: "\ f200"; }
+
+.fa-check: antes de {
+  conteúdo: "\ f00c"; }
+
+.fa-check-circle: antes de {
+  conteúdo: "\ f058"; }
+
+.fa-check-double: antes de {
+  conteúdo: "\ f560"; }
+
+.fa-check-square: antes de {
+  conteúdo: "\ f14a"; }
+
+.fa-cheese: antes de {
+  conteúdo: "\ f7ef"; }
+
+.fa-chess: before {
+  conteúdo: "\ f439"; }
+
+.fa-chess-bishop: antes de {
+  conteúdo: "\ f43a"; }
+
+.fa-chess-board: antes de {
+  conteúdo: "\ f43c"; }
+
+.fa-chess-king: antes de {
+  conteúdo: "\ f43f"; }
+
+.fa-chess-knight: before {
+  conteúdo: "\ f441"; }
+
+.fa-chess-pewn: antes de {
+  conteúdo: "\ f443"; }
+
+.fa-chess-queen: antes de {
+  conteúdo: "\ f445"; }
+
+.fa-chess-rook: antes de {
+  conteúdo: "\ f447"; }
+
+.fa-chevron-circle-down: before {
+  conteúdo: "\ f13a"; }
+
+.fa-chevron-circle-left: before {
+  conteúdo: "\ f137"; }
+
+.fa-chevron-circle-right: before {
+  conteúdo: "\ f138"; }
+
+.fa-chevron-circle-up: antes de {
+  conteúdo: "\ f139"; }
+
+.fa-chevron-down: antes de {
+  conteúdo: "\ f078"; }
+
+.fa-chevron-left: antes de {
+  conteúdo: "\ f053"; }
+
+.fa-chevron-right: before {
+  conteúdo: "\ f054"; }
+
+.fa-chevron-up: antes de {
+  conteúdo: "\ f077"; }
+
+.fa-child: antes de {
+  conteúdo: "\ f1ae"; }
+
+.fa-chrome: before {
+  conteúdo: "\ f268"; }
+
+.fa-chromecast: antes de {
+  conteúdo: "\ f838"; }
+
+.fa-church: before {
+  conteúdo: "\ f51d"; }
+
+.fa-circle: antes de {
+  conteúdo: "\ f111"; }
+
+.fa-circle-notch: before {
+  conteúdo: "\ f1ce"; }
+
+.fa-city: antes de {
+  conteúdo: "\ f64f"; }
+
+.fa-clínica-médica: antes de {
+  conteúdo: "\ f7f2"; }
+
+.fa-clipboard: antes de {
+  conteúdo: "\ f328"; }
+
+.fa-clipboard-check: before {
+  conteúdo: "\ f46c"; }
+
+.fa-clipboard-list: antes de {
+  conteúdo: "\ f46d"; }
+
+.fa-clock: antes de {
+  conteúdo: "\ f017"; }
+
+.fa-clone: ​​antes de {
+  conteúdo: "\ f24d"; }
+
+.fa-closed-captioning: before {
+  conteúdo: "\ f20a"; }
+
+.fa-cloud: antes de {
+  conteúdo: "\ f0c2"; }
+
+.fa-cloud-download-alt: before {
+  conteúdo: "\ f381"; }
+
+.fa-cloud-almôndega: antes de {
+  conteúdo: "\ f73b"; }
+
+.fa-nuvem-lua: antes de {
+  conteúdo: "\ f6c3"; }
+
+.fa-nuvem-lua-chuva: antes de {
+  conteúdo: "\ f73c"; }
+
+.fa-cloud-rain: before {
+  conteúdo: "\ f73d"; }
+
+.fa-cloud-showers-heavy: before {
+  conteúdo: "\ f740"; }
+
+.fa-cloud-sun: antes de {
+  conteúdo: "\ f6c4"; }
+
+.fa-nuvem-sol-chuva: antes de {
+  conteúdo: "\ f743"; }
+
+.fa-cloud-upload-alt: before {
+  conteúdo: "\ f382"; }
+
+.fa-cloudscale: antes de {
+  conteúdo: "\ f383"; }
+
+.fa-cloudsmith: antes de {
+  conteúdo: "\ f384"; }
+
+.fa-cloudversify: antes de {
+  conteúdo: "\ f385"; }
+
+.fa-cocktail: antes de {
+  conteúdo: "\ f561"; }
+
+.fa-code: antes de {
+  conteúdo: "\ f121"; }
+
+.fa-code-branch: before {
+  conteúdo: "\ f126"; }
+
+.fa-codepen: before {
+  conteúdo: "\ f1cb"; }
+
+.fa-codiepie: antes de {
+  conteúdo: "\ f284"; }
+
+.fa-café: antes de {
+  conteúdo: "\ f0f4"; }
+
+.fa-cog: antes de {
+  conteúdo: "\ f013"; }
+
+.fa-cogs: antes de {
+  conteúdo: "\ f085"; }
+
+.fa-coins: antes de {
+  conteúdo: "\ f51e"; }
+
+.fa-colunas: antes de {
+  conteúdo: "\ f0db"; }
+
+.fa-comment: before {
+  conteúdo: "\ f075"; }
+
+.fa-comment-alt: antes de {
+  conteúdo: "\ f27a"; }
+
+.fa-comment-dollar: before {
+  conteúdo: "\ f651"; }
+
+.fa-comment-dots: before {
+  conteúdo: "\ f4ad"; }
+
+.fa-comment-medical: before {
+  conteúdo: "\ f7f5"; }
+
+.fa-comentário-barra: antes de {
+  conteúdo: "\ f4b3"; }
+
+.fa-comments: before {
+  conteúdo: "\ f086"; }
+
+.fa-comments-dollar: before {
+  conteúdo: "\ f653"; }
+
+.fa-compact-disc: antes de {
+  conteúdo: "\ f51f"; }
+
+.fa-compass: antes de {
+  conteúdo: "\ f14e"; }
+
+.fa-compress: before {
+  conteúdo: "\ f066"; }
+
+.fa-compress-arrows-alt: before {
+  conteúdo: "\ f78c"; }
+
+.fa-concierge-bell: antes de {
+  conteúdo: "\ f562"; }
+
+.fa-confluência: antes de {
+  conteúdo: "\ f78d"; }
+
+.fa-connectdevelop: before {
+  conteúdo: "\ f20e"; }
+
+.fa-contao: antes de {
+  conteúdo: "\ f26d"; }
+
+.fa-cookie: antes de {
+  conteúdo: "\ f563"; }
+
+.fa-cookie-bite: antes de {
+  conteúdo: "\ f564"; }
+
+.fa-copy: before {
+  conteúdo: "\ f0c5"; }
+
+.fa-copyright: before {
+  conteúdo: "\ f1f9"; }
+
+.fa-cotton-bureau: antes de {
+  conteúdo: "\ f89e"; }
+
+.fa-couch: antes de {
+  conteúdo: "\ f4b8"; }
+
+.fa-cpanel: antes de {
+  conteúdo: "\ f388"; }
+
+.fa-creative-commons: antes de {
+  conteúdo: "\ f25e"; }
+
+.fa-creative-commons-by: antes de {
+  conteúdo: "\ f4e7"; }
+
+.fa-creative-commons-nc: antes de {
+  conteúdo: "\ f4e8"; }
+
+.fa-creative-commons-nc-eu: antes de {
+  conteúdo: "\ f4e9"; }
+
+.fa-creative-commons-nc-jp: antes de {
+  conteúdo: "\ f4ea"; }
+
+.fa-creative-commons-nd: antes de {
+  conteúdo: "\ f4eb"; }
+
+.fa-creative-commons-pd: antes de {
+  conteúdo: "\ f4ec"; }
+
+.fa-creative-commons-pd-alt: antes de {
+  conteúdo: "\ f4ed"; }
+
+.fa-creative-commons-remix: before {
+  conteúdo: "\ f4ee"; }
+
+.fa-creative-commons-sa: antes de {
+  conteúdo: "\ f4ef"; }
+
+.fa-creative-commons-sampling: before {
+  conteúdo: "\ f4f0"; }
+
+.fa-creative-commons-sampling-plus: before {
+  conteúdo: "\ f4f1"; }
+
+.fa-creative-commons-share: antes de {
+  conteúdo: "\ f4f2"; }
+
+.fa-creative-commons-zero: antes de {
+  conteúdo: "\ f4f3"; }
+
+.fa-credit-card: antes de {
+  conteúdo: "\ f09d"; }
+
+.fa-critical-role: before {
+  conteúdo: "\ f6c9"; }
+
+.fa-crop: before {
+  conteúdo: "\ f125"; }
+
+.fa-crop-alt: antes de {
+  conteúdo: "\ f565"; }
+
+.fa-cross: antes de {
+  conteúdo: "\ f654"; }
+
+.fa-crosshairs: before {
+  conteúdo: "\ f05b"; }
+
+.fa-crow: antes de {
+  conteúdo: "\ f520"; }
+
+.fa-crown: antes de {
+  conteúdo: "\ f521"; }
+
+.fa-muleta: antes de {
+  conteúdo: "\ f7f7"; }
+
+.fa-css3: antes de {
+  conteúdo: "\ f13c"; }
+
+.fa-css3-alt: antes de {
+  conteúdo: "\ f38b"; }
+
+.fa-cube: antes de {
+  conteúdo: "\ f1b2"; }
+
+.fa-cubos: antes de {
+  conteúdo: "\ f1b3"; }
+
+.fa-cut: antes de {
+  conteúdo: "\ f0c4"; }
+
+.fa-choco: antes de {
+  conteúdo: "\ f38c"; }
+
+.fa-d-and-d: antes de {
+  conteúdo: "\ f38d"; }
+
+.fa-d-and-d-beyond: before {
+  conteúdo: "\ f6ca"; }
+
+.fa-dashcube: antes de {
+  conteúdo: "\ f210"; }
+
+.fa-database: before {
+  conteúdo: "\ f1c0"; }
+
+.fa-surdo: antes de {
+  conteúdo: "\ f2a4"; }
+
+.fa-delicious: before {
+  conteúdo: "\ f1a5"; }
+
+.fa-democrat: antes de {
+  conteúdo: "\ f747"; }
+
+.fa-deploydog: before {
+  conteúdo: "\ f38e"; }
+
+.fa-deskpro: antes de {
+  conteúdo: "\ f38f"; }
+
+.fa-desktop: before {
+  conteúdo: "\ f108"; }
+
+.fa-dev: antes de {
+  conteúdo: "\ f6cc"; }
+
+.fa-deviantart: antes de {
+  conteúdo: "\ f1bd"; }
+
+.fa-dharmachakra: antes de {
+  conteúdo: "\ f655"; }
+
+.fa-dhl: antes de {
+  conteúdo: "\ f790"; }
+
+.fa-diagnoses: before {
+  conteúdo: "\ f470"; }
+
+.fa-diaspora: antes de {
+  conteúdo: "\ f791"; }
+
+.fa-dice: antes de {
+  conteúdo: "\ f522"; }
+
+.fa-dice-d20: antes de {
+  conteúdo: "\ f6cf"; }
+
+.fa-dice-d6: antes de {
+  conteúdo: "\ f6d1"; }
+
+.fa-dice-five: antes de {
+  conteúdo: "\ f523"; }
+
+.fa-dice-four: antes de {
+  conteúdo: "\ f524"; }
+
+.fa-dice-one: antes de {
+  conteúdo: "\ f525"; }
+
+.fa-dice-six: before {
+  conteúdo: "\ f526"; }
+
+.fa-dice-three: before {
+  conteúdo: "\ f527"; }
+
+.fa-dice-two: before {
+  conteúdo: "\ f528"; }
+
+.fa-digg: ​​antes de {
+  conteúdo: "\ f1a6"; }
+
+.fa-digital-ocean: antes de {
+  conteúdo: "\ f391"; }
+
+.fa-digital-tacógrafo: antes de {
+  conteúdo: "\ f566"; }
+
+.fa-direcções: antes de {
+  conteúdo: "\ f5eb"; }
+
+.fa-discord: antes de {
+  conteúdo: "\ f392"; }
+
+.fa-discourse: before {
+  conteúdo: "\ f393"; }
+
+.fa-divide: antes de {
+  conteúdo: "\ f529"; }
+
+.fa-tonto: antes de {
+  conteúdo: "\ f567"; }
+
+.fa-dna: antes de {
+  conteúdo: "\ f471"; }
+
+.fa-dochub: antes de {
+  conteúdo: "\ f394"; }
+
+.fa-docker: antes de {
+  conteúdo: "\ f395"; }
+
+.fa-dog: antes de {
+  conteúdo: "\ f6d3"; }
+
+.fa-cifrão: antes de {
+  conteúdo: "\ f155"; }
+
+.fa-dolly: antes de {
+  conteúdo: "\ f472"; }
+
+.fa-dolly-flatbed: antes de {
+  conteúdo: "\ f474"; }
+
+.fa-donate: antes de {
+  conteúdo: "\ f4b9"; }
+
+.fa-door-closed: before {
+  conteúdo: "\ f52a"; }
+
+.fa-door-open: before {
+  conteúdo: "\ f52b"; }
+
+.fa-dot-circle: antes de {
+  conteúdo: "\ f192"; }
+
+.fa-dove: antes de {
+  conteúdo: "\ f4ba"; }
+
+.fa-download: before {
+  conteúdo: "\ f019"; }
+
+.fa-draft2digital: antes de {
+  conteúdo: "\ f396"; }
+
+.fa-drafting-compass: antes de {
+  conteúdo: "\ f568"; }
+
+.fa-dragon: antes de {
+  conteúdo: "\ f6d5"; }
+
+.fa-draw-polygon: antes de {
+  conteúdo: "\ f5ee"; }
+
+.fa-dribbble: antes de {
+  conteúdo: "\ f17d"; }
+
+.fa-dribbble-square: antes de {
+  conteúdo: "\ f397"; }
+
+.fa-dropbox: antes de {
+  conteúdo: "\ f16b"; }
+
+.fa-drum: antes de {
+  conteúdo: "\ f569"; }
+
+.fa-drum-steelpan: antes de {
+  conteúdo: "\ f56a"; }
+
+.fa-drumstick-bite: before {
+  conteúdo: "\ f6d7"; }
+
+.fa-drupal: antes de {
+  conteúdo: "\ f1a9"; }
+
+.fa-haltere: antes de {
+  conteúdo: "\ f44b"; }
+
+.fa-dumpster: antes de {
+  conteúdo: "\ f793"; }
+
+.fa-dumpster-fire: antes de {
+  conteúdo: "\ f794"; }
+
+.fa-dungeon: antes de {
+  conteúdo: "\ f6d9"; }
+
+.fa-dyalog: antes de {
+  conteúdo: "\ f399"; }
+
+.fa-earlybirds: antes de {
+  conteúdo: "\ f39a"; }
+
+.fa-ebay: antes de {
+  conteúdo: "\ f4f4"; }
+
+.fa-edge: before {
+  conteúdo: "\ f282"; }
+
+.fa-edit: before {
+  conteúdo: "\ f044"; }
+
+.fa-egg: antes de {
+  conteúdo: "\ f7fb"; }
+
+.fa-ejetar: antes de {
+  conteúdo: "\ f052"; }
+
+.fa-elementor: antes de {
+  conteúdo: "\ f430"; }
+
+.fa-ellipsis-h: antes de {
+  conteúdo: "\ f141"; }
+
+.fa-ellipsis-v: antes de {
+  conteúdo: "\ f142"; }
+
+.fa-ello: antes de {
+  conteúdo: "\ f5f1"; }
+
+.fa-ember: antes de {
+  conteúdo: "\ f423"; }
+
+.fa-império: antes de {
+  conteúdo: "\ f1d1"; }
+
+.fa-envelope: antes de {
+  conteúdo: "\ f0e0"; }
+
+.fa-envelope-open: antes de {
+  conteúdo: "\ f2b6"; }
+
+.fa-envelope-open-text: antes de {
+  conteúdo: "\ f658"; }
+
+.fa-envelope-square: antes de {
+  conteúdo: "\ f199"; }
+
+.fa-envira: antes de {
+  conteúdo: "\ f299"; }
+
+.fa-equals: before {
+  conteúdo: "\ f52c"; }
+
+.fa-eraser: antes de {
+  conteúdo: "\ f12d"; }
+
+.fa-erlang: antes de {
+  conteúdo: "\ f39d"; }
+
+.fa-ethereum: antes de {
+  conteúdo: "\ f42e"; }
+
+.fa-ethernet: antes de {
+  conteúdo: "\ f796"; }
+
+.fa-etsy: antes de {
+  conteúdo: "\ f2d7"; }
+
+.fa-euro-sign: antes de {
+  conteúdo: "\ f153"; }
+
+.fa-evernote: before {
+  conteúdo: "\ f839"; }
+
+.fa-exchange-alt: antes de {
+  conteúdo: "\ f362"; }
+
+.fa-exclamação: antes de {
+  conteúdo: "\ f12a"; }
+
+.fa-exclamation-circle: before {
+  conteúdo: "\ f06a"; }
+
+.fa-exclamação-triângulo: antes de {
+  conteúdo: "\ f071"; }
+
+.fa-expand: before {
+  conteúdo: "\ f065"; }
+
+.fa-expandir-setas-alt: antes de {
+  conteúdo: "\ f31e"; }
+
+.fa-expeditedssl: antes de {
+  conteúdo: "\ f23e"; }
+
+.fa-external-link-alt: antes de {
+  conteúdo: "\ f35d"; }
+
+.fa-external-link-square-alt: before {
+  conteúdo: "\ f360"; }
+
+.fa-eye: antes de {
+  conteúdo: "\ f06e"; }
+
+.fa-conta-gotas: antes de {
+  conteúdo: "\ f1fb"; }
+
+.fa-olho-barra: antes de {
+  conteúdo: "\ f070"; }
+
+.fa-facebook: antes de {
+  conteúdo: "\ f09a"; }
+
+.fa-facebook-f: antes de {
+  conteúdo: "\ f39e"; }
+
+.fa-facebook-messenger: antes de {
+  conteúdo: "\ f39f"; }
+
+.fa-facebook-square: antes de {
+  conteúdo: "\ f082"; }
+
+.fa-fan: antes de {
+  conteúdo: "\ f863"; }
+
+.fa-fantasy-flight-games: before {
+  conteúdo: "\ f6dc"; }
+
+.fa-fast-backward: before {
+  conteúdo: "\ f049"; }
+
+.fa-fast-forward: antes de {
+  conteúdo: "\ f050"; }
+
+.fa-fax: antes de {
+  conteúdo: "\ f1ac"; }
+
+.fa-feather: before {
+  conteúdo: "\ f52d"; }
+
+.fa-feather-alt: antes de {
+  conteúdo: "\ f56b"; }
+
+.fa-fedex: antes de {
+  conteúdo: "\ f797"; }
+
+.fa-fedora: antes de {
+  conteúdo: "\ f798"; }
+
+.fa-female: before {
+  conteúdo: "\ f182"; }
+
+.fa-fighter-jet: antes de {
+  conteúdo: "\ f0fb"; }
+
+.fa-figma: antes de {
+  conteúdo: "\ f799"; }
+
+arquivo .fa: antes de {
+  conteúdo: "\ f15b"; }
+
+.fa-file-alt: before {
+  conteúdo: "\ f15c"; }
+
+.fa-file-archive: before {
+  conteúdo: "\ f1c6"; }
+
+.fa-file-audio: antes de {
+  conteúdo: "\ f1c7"; }
+
+.fa-file-code: before {
+  conteúdo: "\ f1c9"; }
+
+.fa-file-contract: before {
+  conteúdo: "\ f56c"; }
+
+.fa-file-csv: antes de {
+  conteúdo: "\ f6dd"; }
+
+.fa-file-download: before {
+  conteúdo: "\ f56d"; }
+
+.fa-file-excel: antes de {
+  conteúdo: "\ f1c3"; }
+
+.fa-file-export: before {
+  conteúdo: "\ f56e"; }
+
+.fa-file-image: before {
+  conteúdo: "\ f1c5"; }
+
+.fa-file-import: before {
+  conteúdo: "\ f56f"; }
+
+.fa-file-invoice: before {
+  conteúdo: "\ f570"; }
+
+.fa-file-invoice-dollar: antes de {
+  conteúdo: "\ f571"; }
+
+.fa-file-medical: before {
+  conteúdo: "\ f477"; }
+
+.fa-file-medical-alt: before {
+  conteúdo: "\ f478"; }
+
+.fa-file-pdf: antes de {
+  conteúdo: "\ f1c1"; }
+
+.fa-file-powerpoint: antes de {
+  conteúdo: "\ f1c4"; }
+
+prescrição de arquivo .fa: antes de {
+  conteúdo: "\ f572"; }
+
+.fa-file-signature: before {
+  conteúdo: "\ f573"; }
+
+.fa-file-upload: before {
+  conteúdo: "\ f574"; }
+
+.fa-file-video: antes de {
+  conteúdo: "\ f1c8"; }
+
+.fa-file-word: before {
+  conteúdo: "\ f1c2"; }
+
+.fa-fill: antes de {
+  conteúdo: "\ f575"; }
+
+.fa-fill-drip: antes de {
+  conteúdo: "\ f576"; }
+
+.fa-film: antes de {
+  conteúdo: "\ f008"; }
+
+.fa-filter: antes de {
+  conteúdo: "\ f0b0"; }
+
+.fa-impressão digital: antes de {
+  conteúdo: "\ f577"; }
+
+.fa-fire: before {
+  conteúdo: "\ f06d"; }
+
+.fa-fire-alt: antes de {
+  conteúdo: "\ f7e4"; }
+
+.fa-extintor de incêndio: antes de {
+  conteúdo: "\ f134"; }
+
+.fa-firefox: antes de {
+  conteúdo: "\ f269"; }
+
+.fa-primeiros socorros: antes de {
+  conteúdo: "\ f479"; }
+
+.fa-primeira ordem: antes de {
+  conteúdo: "\ f2b0"; }
+
+.fa-first-order-alt: before {
+  conteúdo: "\ f50a"; }
+
+.fa-firstdraft: antes de {
+  conteúdo: "\ f3a1"; }
+
+.fa-fish: antes de {
+  conteúdo: "\ f578"; }
+
+.fa-punho erguido: antes de {
+  conteúdo: "\ f6de"; }
+
+.fa-flag: antes de {
+  conteúdo: "\ f024"; }
+
+.fa-flag-checkered: before {
+  conteúdo: "\ f11e"; }
+
+.fa-flag-usa: antes de {
+  conteúdo: "\ f74d"; }
+
+.fa-flask: antes de {
+  conteúdo: "\ f0c3"; }
+
+.fa-flickr: antes de {
+  conteúdo: "\ f16e"; }
+
+.fa-flipboard: antes de {
+  conteúdo: "\ f44d"; }
+
+.fa-flushed: before {
+  conteúdo: "\ f579"; }
+
+.fa-fly: antes de {
+  conteúdo: "\ f417"; }
+
+.fa-folder: antes de {
+  conteúdo: "\ f07b"; }
+
+.fa-folder-minus: before {
+  conteúdo: "\ f65d"; }
+
+.fa-folder-open: antes de {
+  conteúdo: "\ f07c"; }
+
+.fa-folder-plus: antes de {
+  conteúdo: "\ f65e"; }
+
+.fa-font: before {
+  conteúdo: "\ f031"; }
+
+.fa-font-awesome: before {
+  conteúdo: "\ f2b4"; }
+
+.fa-font-awesome-alt: antes de {
+  conteúdo: "\ f35c"; }
+
+.fa-font-awesome-flag: antes de {
+  conteúdo: "\ f425"; }
+
+.fa-font-awesome-logo-full: antes de {
+  conteúdo: "\ f4e6"; }
+
+.fa-fonticons: antes de {
+  conteúdo: "\ f280"; }
+
+.fa-fonticons-fi: antes de {
+  conteúdo: "\ f3a2"; }
+
+.fa-football-ball: antes de {
+  conteúdo: "\ f44e"; }
+
+.fa-fort-awesome: before {
+  conteúdo: "\ f286"; }
+
+.fa-fort-awesome-alt: antes de {
+  conteúdo: "\ f3a3"; }
+
+.fa-forumbee: antes de {
+  conteúdo: "\ f211"; }
+
+.fa-forward: before {
+  conteúdo: "\ f04e"; }
+
+.fa-foursquare: antes de {
+  conteúdo: "\ f180"; }
+
+.fa-free-code-camp: before {
+  conteúdo: "\ f2c5"; }
+
+.fa-freebsd: antes de {
+  conteúdo: "\ f3a4"; }
+
+.fa-frog: antes de {
+  conteúdo: "\ f52e"; }
+
+.fa-frown: antes de {
+  conteúdo: "\ f119"; }
+
+.fa-frown-open: before {
+  conteúdo: "\ f57a"; }
+
+.fa-fulcro: antes de {
+  conteúdo: "\ f50b"; }
+
+.fa-funnel-dollar: antes de {
+  conteúdo: "\ f662"; }
+
+.fa-futbol: antes de {
+  conteúdo: "\ f1e3"; }
+
+.fa-galactic-republic: antes de {
+  conteúdo: "\ f50c"; }
+
+.fa-galactic-senate: antes de {
+  conteúdo: "\ f50d"; }
+
+.fa-gamepad: antes de {
+  conteúdo: "\ f11b"; }
+
+.fa-bomba de gás: antes de {
+  conteúdo: "\ f52f"; }
+
+.fa-gavel: antes de {
+  conteúdo: "\ f0e3"; }
+
+.fa-gem: antes de {
+  conteúdo: "\ f3a5"; }
+
+.fa-genderless: before {
+  conteúdo: "\ f22d"; }
+
+.fa-get-pocket: antes de {
+  conteúdo: "\ f265"; }
+
+.fa-gg: antes de {
+  conteúdo: "\ f260"; }
+
+.fa-gg-circle: antes de {
+  conteúdo: "\ f261"; }
+
+.fa-ghost: before {
+  conteúdo: "\ f6e2"; }
+
+.fa-gift: antes de {
+  conteúdo: "\ f06b"; }
+
+.fa-gifts: antes de {
+  conteúdo: "\ f79c"; }
+
+.fa-git: before {
+  conteúdo: "\ f1d3"; }
+
+.fa-git-alt: antes de {
+  conteúdo: "\ f841"; }
+
+.fa-git-square: antes de {
+  conteúdo: "\ f1d2"; }
+
+.fa-github: antes de {
+  conteúdo: "\ f09b"; }
+
+.fa-github-alt: antes de {
+  conteúdo: "\ f113"; }
+
+.fa-github-square: antes de {
+  conteúdo: "\ f092"; }
+
+.fa-gitkraken: antes de {
+  conteúdo: "\ f3a6"; }
+
+.fa-gitlab: before {
+  conteúdo: "\ f296"; }
+
+.fa-gitter: antes de {
+  conteúdo: "\ f426"; }
+
+.fa-glass-cheers: before {
+  conteúdo: "\ f79f"; }
+
+.fa-glass-martini: antes de {
+  conteúdo: "\ f000"; }
+
+.fa-glass-martini-alt: antes de {
+  conteúdo: "\ f57b"; }
+
+.fa-glass-whisky: antes de {
+  conteúdo: "\ f7a0"; }
+
+.fa-glasses: antes de {
+  conteúdo: "\ f530"; }
+
+.fa-glide: antes de {
+  conteúdo: "\ f2a5"; }
+
+.fa-glide-g: antes de {
+  conteúdo: "\ f2a6"; }
+
+.fa-globe: antes de {
+  conteúdo: "\ f0ac"; }
+
+.fa-globe-africa: antes de {
+  conteúdo: "\ f57c"; }
+
+.fa-globe-americas: antes de {
+  conteúdo: "\ f57d"; }
+
+.fa-globe-asia: antes de {
+  conteúdo: "\ f57e"; }
+
+.fa-globe-europe: antes de {
+  conteúdo: "\ f7a2"; }
+
+.fa-gofore: antes de {
+  conteúdo: "\ f3a7"; }
+
+.fa-golf-ball: antes de {
+  conteúdo: "\ f450"; }
+
+.fa-goodreads: antes de {
+  conteúdo: "\ f3a8"; }
+
+.fa-goodreads-g: antes de {
+  conteúdo: "\ f3a9"; }
+
+.fa-google: antes de {
+  conteúdo: "\ f1a0"; }
+
+.fa-google-drive: antes de {
+  conteúdo: "\ f3aa"; }
+
+.fa-google-play: antes de {
+  conteúdo: "\ f3ab"; }
+
+.fa-google-plus: antes de {
+  conteúdo: "\ f2b3"; }
+
+.fa-google-plus-g: antes de {
+  conteúdo: "\ f0d5"; }
+
+.fa-google-plus-square: antes de {
+  conteúdo: "\ f0d4"; }
+
+.fa-google-wallet: antes de {
+  conteúdo: "\ f1ee"; }
+
+.fa-gopuram: antes de {
+  conteúdo: "\ f664"; }
+
+.fa-graduation-cap: antes de {
+  conteúdo: "\ f19d"; }
+
+.fa-gratipay: antes de {
+  conteúdo: "\ f184"; }
+
+.fa-grav: antes de {
+  conteúdo: "\ f2d6"; }
+
+.fa-maior-que: antes de {
+  conteúdo: "\ f531"; }
+
+.fa-maior-que-igual: antes de {
+  conteúdo: "\ f532"; }
+
+.fa-careta: antes de {
+  conteúdo: "\ f57f"; }
+
+.fa-grin: antes de {
+  conteúdo: "\ f580"; }
+
+.fa-grin-alt: antes de {
+  conteúdo: "\ f581"; }
+
+.fa-grin-beam: antes de {
+  conteúdo: "\ f582"; }
+
+.fa-grin-beam-sweat: antes de {
+  conteúdo: "\ f583"; }
+
+.fa-grin-hearts: before {
+  conteúdo: "\ f584"; }
+
+.fa-grin-squint: antes {
+  conteúdo: "\ f585"; }
+
+.fa-grin-estrabismo-lágrimas: antes {
+  conteúdo: "\ f586"; }
+
+.fa-grin-stars: antes de {
+  conteúdo: "\ f587"; }
+
+.fa-grin-lágrimas: antes de {
+  conteúdo: "\ f588"; }
+
+.fa-sorriso-língua: antes de {
+  conteúdo: "\ f589"; }
+
+.fa-sorriso-língua-estrabismo: antes de {
+  conteúdo: "\ f58a"; }
+
+.fa-sorriso-sorriso-língua: antes de {
+  conteúdo: "\ f58b"; }
+
+.fa-grin-wink: antes de {
+  conteúdo: "\ f58c"; }
+
+.fa-grip-horizontal: antes de {
+  conteúdo: "\ f58d"; }
+
+.fa-grip-lines: before {
+  conteúdo: "\ f7a4"; }
+
+.fa-grip-lines-vertical: before {
+  conteúdo: "\ f7a5"; }
+
+.fa-grip-vertical: antes de {
+  conteúdo: "\ f58e"; }
+
+.fa-gripfire: antes de {
+  conteúdo: "\ f3ac"; }
+
+.fa-grunt: antes de {
+  conteúdo: "\ f3ad"; }
+
+.fa-guitar: antes de {
+  conteúdo: "\ f7a6"; }
+
+.fa-gulp: antes de {
+  conteúdo: "\ f3ae"; }
+
+.fa-h-square: antes de {
+  conteúdo: "\ f0fd"; }
+
+.fa-hacker-news: antes de {
+  conteúdo: "\ f1d4"; }
+
+.fa-hacker-news-square: antes de {
+  conteúdo: "\ f3af"; }
+
+.fa-hackerrank: antes de {
+  conteúdo: "\ f5f7"; }
+
+.fa-hamburger: antes de {
+  conteúdo: "\ f805"; }
+
+.fa-hammer: antes de {
+  conteúdo: "\ f6e3"; }
+
+.fa-hamsa: antes de {
+  conteúdo: "\ f665"; }
+
+.fa-hand-holding: before {
+  conteúdo: "\ f4bd"; }
+
+.fa-hand-holding-heart: antes de {
+  conteúdo: "\ f4be"; }
+
+.fa-hand-holding-usd: antes de {
+  conteúdo: "\ f4c0"; }
+
+.fa-hand-lizard: antes de {
+  conteúdo: "\ f258"; }
+
+.fa-mão-dedo médio: antes de {
+  conteúdo: "\ f806"; }
+
+.fa-hand-paper: antes de {
+  conteúdo: "\ f256"; }
+
+.fa-hand-peace: antes de {
+  conteúdo: "\ f25b"; }
+
+.fa-hand-point-down: before {
+  conteúdo: "\ f0a7"; }
+
+.fa-hand-point-left: before {
+  conteúdo: "\ f0a5"; }
+
+.fa-hand-point-right: before {
+  conteúdo: "\ f0a4"; }
+
+.fa-hand-point-up: antes de {
+  conteúdo: "\ f0a6"; }
+
+.fa-hand-pointer: before {
+  conteúdo: "\ f25a"; }
+
+.fa-hand-rock: antes de {
+  conteúdo: "\ f255"; }
+
+.fa-hand-scissors: antes de {
+  conteúdo: "\ f257"; }
+
+.fa-hand-spock: antes de {
+  conteúdo: "\ f259"; }
+
+.fa-hands: before {
+  conteúdo: "\ f4c2"; }
+
+.fa-hands-help: before {
+  conteúdo: "\ f4c4"; }
+
+.fa-handshake: antes de {
+  conteúdo: "\ f2b5"; }
+
+.fa-hanukiah: antes de {
+  conteúdo: "\ f6e6"; }
+
+.fa-capacete: antes de {
+  conteúdo: "\ f807"; }
+
+.fa-hashtag: antes de {
+  conteúdo: "\ f292"; }
+
+.fa-hat-cowboy: antes de {
+  conteúdo: "\ f8c0"; }
+
+.fa-hat-cowboy-side: before {
+  conteúdo: "\ f8c1"; }
+
+.fa-hat-wizard: antes de {
+  conteúdo: "\ f6e8"; }
+
+.fa-haykal: antes de {
+  conteúdo: "\ f666"; }
+
+.fa-hdd: antes de {
+  conteúdo: "\ f0a0"; }
+
+.fa-header: before {
+  conteúdo: "\ f1dc"; }
+
+.fa-headphones: before {
+  conteúdo: "\ f025"; }
+
+.fa-headphones-alt: antes de {
+  conteúdo: "\ f58f"; }
+
+.fa-headset: antes de {
+  conteúdo: "\ f590"; }
+
+.fa-heart: before {
+  conteúdo: "\ f004"; }
+
+.fa-coração partido: antes de {
+  conteúdo: "\ f7a9"; }
+
+.fa-heartbeat: antes de {
+  conteúdo: "\ f21e"; }
+
+.fa-helicóptero: antes de {
+  conteúdo: "\ f533"; }
+
+.fa-highlighter: antes de {
+  conteúdo: "\ f591"; }
+
+.fa-hiking: before {
+  conteúdo: "\ f6ec"; }
+
+.fa-hippo: antes de {
+  conteúdo: "\ f6ed"; }
+
+.fa-hips: antes de {
+  conteúdo: "\ f452"; }
+
+.fa-contratar um ajudante: antes de {
+  conteúdo: "\ f3b0"; }
+
+.fa-history: before {
+  conteúdo: "\ f1da"; }
+
+.fa-hockey-puck: antes de {
+  conteúdo: "\ f453"; }
+
+.fa-holly-berry: antes de {
+  conteúdo: "\ f7aa"; }
+
+.fa-home: antes de {
+  conteúdo: "\ f015"; }
+
+.fa-hooli: antes de {
+  conteúdo: "\ f427"; }
+
+.fa-hornbill: antes de {
+  conteúdo: "\ f592"; }
+
+.fa-horse: antes de {
+  conteúdo: "\ f6f0"; }
+
+.fa-Horse-head: before {
+  conteúdo: "\ f7ab"; }
+
+.fa-hospital: antes de {
+  conteúdo: "\ f0f8"; }
+
+.fa-hospital-alt: antes de {
+  conteúdo: "\ f47d"; }
+
+.fa-hospital-symbol: before {
+  conteúdo: "\ f47e"; }
+
+.fa-hot-tub: antes de {
+  conteúdo: "\ f593"; }
+
+.fa-hotdog: antes de {
+  conteúdo: "\ f80f"; }
+
+.fa-hotel: antes de {
+  conteúdo: "\ f594"; }
+
+.fa-hotjar: antes de {
+  conteúdo: "\ f3b1"; }
+
+.fa-ampulheta: antes de {
+  conteúdo: "\ f254"; }
+
+.fa-ampulheta-end: antes de {
+  conteúdo: "\ f253"; }
+
+.fa-ampulheta-meia: antes de {
+  conteúdo: "\ f252"; }
+
+.fa-ampulheta-start: antes de {
+  conteúdo: "\ f251"; }
+
+.fa-house-damage: before {
+  conteúdo: "\ f6f1"; }
+
+.fa-houzz: antes de {
+  conteúdo: "\ f27c"; }
+
+.fa-hryvnia: antes de {
+  conteúdo: "\ f6f2"; }
+
+.fa-html5: antes de {
+  conteúdo: "\ f13b"; }
+
+.fa-hubspot: antes de {
+  conteúdo: "\ f3b2"; }
+
+.fa-i-cursor: antes de {
+  conteúdo: "\ f246"; }
+
+.fa-sorvete: antes de {
+  conteúdo: "\ f810"; }
+
+.fa-icicles: antes de {
+  conteúdo: "\ f7ad"; }
+
+.fa-icons: antes de {
+  conteúdo: "\ f86d"; }
+
+.fa-id-badge: antes de {
+  conteúdo: "\ f2c1"; }
+
+.fa-id-card: antes de {
+  conteúdo: "\ f2c2"; }
+
+.fa-id-card-alt: antes de {
+  conteúdo: "\ f47f"; }
+
+.fa-igloo: antes de {
+  conteúdo: "\ f7ae"; }
+
+.fa-image: before {
+  conteúdo: "\ f03e"; }
+
+.fa-images: before {
+  conteúdo: "\ f302"; }
+
+.fa-imdb: antes de {
+  conteúdo: "\ f2d8"; }
+
+.fa-inbox: antes de {
+  conteúdo: "\ f01c"; }
+
+.fa-indent: antes de {
+  conteúdo: "\ f03c"; }
+
+.fa-industry: antes de {
+  conteúdo: "\ f275"; }
+
+.fa-infinito: antes de {
+  conteúdo: "\ f534"; }
+
+.fa-info: antes de {
+  conteúdo: "\ f129"; }
+
+.fa-info-circle: antes de {
+  conteúdo: "\ f05a"; }
+
+.fa-instagram: antes de {
+  conteúdo: "\ f16d"; }
+
+.fa-intercom: antes de {
+  conteúdo: "\ f7af"; }
+
+.fa-internet-explorer: antes de {
+  conteúdo: "\ f26b"; }
+
+.fa-invision: before {
+  conteúdo: "\ f7b0"; }
+
+.fa-ioxhost: antes de {
+  conteúdo: "\ f208"; }
+
+.fa-itálico: antes de {
+  conteúdo: "\ f033"; }
+
+.fa-itch-io: antes {
+  conteúdo: "\ f83a"; }
+
+.fa-itunes: antes de {
+  conteúdo: "\ f3b4"; }
+
+.fa-itunes-note: antes de {
+  conteúdo: "\ f3b5"; }
+
+.fa-java: before {
+  conteúdo: "\ f4e4"; }
+
+.fa-jedi: antes de {
+  conteúdo: "\ f669"; }
+
+.fa-jedi-order: before {
+  conteúdo: "\ f50e"; }
+
+.fa-jenkins: antes de {
+  conteúdo: "\ f3b6"; }
+
+.fa-jira: antes de {
+  conteúdo: "\ f7b1"; }
+
+.fa-joget: antes de {
+  conteúdo: "\ f3b7"; }
+
+.fa-joint: antes de {
+  conteúdo: "\ f595"; }
+
+.fa-joomla: antes de {
+  conteúdo: "\ f1aa"; }
+
+.fa-journal-whills: antes de {
+  conteúdo: "\ f66a"; }
+
+.fa-js: antes de {
+  conteúdo: "\ f3b8"; }
+
+.fa-js-square: antes de {
+  conteúdo: "\ f3b9"; }
+
+.fa-jsfiddle: before {
+  conteúdo: "\ f1cc"; }
+
+.fa-kaaba: antes de {
+  conteúdo: "\ f66b"; }
+
+.fa-kaggle: antes de {
+  conteúdo: "\ f5fa"; }
+
+.fa-key: before {
+  conteúdo: "\ f084"; }
+
+.fa-keybase: before {
+  conteúdo: "\ f4f5"; }
+
+.fa-keyboard: antes de {
+  conteúdo: "\ f11c"; }
+
+.fa-keycdn: antes de {
+  conteúdo: "\ f3ba"; }
+
+.fa-khanda: antes de {
+  conteúdo: "\ f66d"; }
+
+.fa-kickstarter: antes de {
+  conteúdo: "\ f3bb"; }
+
+.fa-kickstarter-k: antes de {
+  conteúdo: "\ f3bc"; }
+
+.fa-kiss: antes de {
+  conteúdo: "\ f596"; }
+
+.fa-kiss-beam: before {
+  conteúdo: "\ f597"; }
+
+.fa-kiss-wink-heart: before {
+  conteúdo: "\ f598"; }
+
+.fa-kiwi-bird: antes de {
+  conteúdo: "\ f535"; }
+
+.fa-korvue: antes de {
+  conteúdo: "\ f42f"; }
+
+.fa-landmark: antes de {
+  conteúdo: "\ f66f"; }
+
+.fa-language: before {
+  conteúdo: "\ f1ab"; }
+
+.fa-laptop: antes de {
+  conteúdo: "\ f109"; }
+
+.fa-laptop-code: antes de {
+  conteúdo: "\ f5fc"; }
+
+.fa-laptop-medical: antes de {
+  conteúdo: "\ f812"; }
+
+.fa-laravel: antes de {
+  conteúdo: "\ f3bd"; }
+
+.fa-lastfm: antes de {
+  conteúdo: "\ f202"; }
+
+.fa-lastfm-square: antes de {
+  conteúdo: "\ f203"; }
+
+.fa-laugh: antes {
+  conteúdo: "\ f599"; }
+
+.fa-laugh-beam: before {
+  conteúdo: "\ f59a"; }
+
+.fa-laugh-squint: before {
+  conteúdo: "\ f59b"; }
+
+.fa-laugh-wink: antes {
+  conteúdo: "\ f59c"; }
+
+.fa-layer-group: antes de {
+  conteúdo: "\ f5fd"; }
+
+.fa-leaf: antes de {
+  conteúdo: "\ f06c"; }
+
+.fa-leanpub: antes de {
+  conteúdo: "\ f212"; }
+
+.fa-lemon: antes de {
+  conteúdo: "\ f094"; }
+
+.fa-less: antes de {
+  conteúdo: "\ f41d"; }
+
+.fa-less-than: before {
+  conteúdo: "\ f536"; }
+
+.fa-menor-que-igual: antes de {
+  conteúdo: "\ f537"; }
+
+.fa-level-down-alt: before {
+  conteúdo: "\ f3be"; }
+
+.fa-level-up-alt: before {
+  conteúdo: "\ f3bf"; }
+
+.fa-life-ring: before {
+  conteúdo: "\ f1cd"; }
+
+.fa-lightbulb: before {
+  conteúdo: "\ f0eb"; }
+
+.fa-line: antes de {
+  conteúdo: "\ f3c0"; }
+
+.fa-link: antes de {
+  conteúdo: "\ f0c1"; }
+
+.fa-linkedin: antes de {
+  conteúdo: "\ f08c"; }
+
+.fa-linkedin-in: antes de {
+  conteúdo: "\ f0e1"; }
+
+.fa-linode: antes de {
+  conteúdo: "\ f2b8"; }
+
+.fa-linux: antes de {
+  conteúdo: "\ f17c"; }
+
+.fa-lira-sinal: antes de {
+  conteúdo: "\ f195"; }
+
+.fa-list: antes de {
+  conteúdo: "\ f03a"; }
+
+.fa-list-alt: antes de {
+  conteúdo: "\ f022"; }
+
+.fa-list-ol: antes de {
+  conteúdo: "\ f0cb"; }
+
+.fa-list-ul: antes de {
+  conteúdo: "\ f0ca"; }
+
+.fa-location-arrow: before {
+  conteúdo: "\ f124"; }
+
+.fa-lock: antes de {
+  conteúdo: "\ f023"; }
+
+.fa-lock-open: antes de {
+  conteúdo: "\ f3c1"; }
+
+.fa-long-arrow-alt-down: antes de {
+  conteúdo: "\ f309"; }
+
+.fa-long-arrow-alt-left: before {
+  conteúdo: "\ f30a"; }
+
+.fa-long-arrow-alt-right: antes de {
+  conteúdo: "\ f30b"; }
+
+.fa-long-arrow-alt-up: antes de {
+  conteúdo: "\ f30c"; }
+
+.fa-baixa visão: antes de {
+  conteúdo: "\ f2a8"; }
+
+.fa-bagagem-carrinho: antes de {
+  conteúdo: "\ f59d"; }
+
+.fa-lyft: antes de {
+  conteúdo: "\ f3c3"; }
+
+.fa-magento: antes de {
+  conteúdo: "\ f3c4"; }
+
+.fa-magic: before {
+  conteúdo: "\ f0d0"; }
+
+.fa-magnet: antes de {
+  conteúdo: "\ f076"; }
+
+.fa-mail-bulk: antes de {
+  conteúdo: "\ f674"; }
+
+.fa-mailchimp: antes de {
+  conteúdo: "\ f59e"; }
+
+.fa-male: antes de {
+  conteúdo: "\ f183"; }
+
+.fa-mandalorian: antes de {
+  conteúdo: "\ f50f"; }
+
+.fa-map: antes de {
+  conteúdo: "\ f279"; }
+
+.fa-map-marcado: antes de {
+  conteúdo: "\ f59f"; }
+
+.fa-map-mark-alt: before {
+  conteúdo: "\ f5a0"; }
+
+.fa-map-marker: before {
+  conteúdo: "\ f041"; }
+
+.fa-map-marker-alt: before {
+  conteúdo: "\ f3c5"; }
+
+.fa-map-pin: antes de {
+  conteúdo: "\ f276"; }
+
+.fa-map-signs: before {
+  conteúdo: "\ f277"; }
+
+.fa-markdown: antes de {
+  conteúdo: "\ f60f"; }
+
+.fa-marker: before {
+  conteúdo: "\ f5a1"; }
+
+.fa-mars: antes de {
+  conteúdo: "\ f222"; }
+
+.fa-mars-double: antes de {
+  conteúdo: "\ f227"; }
+
+.fa-mars-stroke: before {
+  conteúdo: "\ f229"; }
+
+.fa-mars-stroke-h: before {
+  conteúdo: "\ f22b"; }
+
+.fa-mars-stroke-v: before {
+  conteúdo: "\ f22a"; }
+
+.fa-mask: antes de {
+  conteúdo: "\ f6fa"; }
+
+.fa-mastodonte: antes de {
+  conteúdo: "\ f4f6"; }
+
+.fa-maxcdn: antes de {
+  conteúdo: "\ f136"; }
+
+.fa-mdb: antes de {
+  conteúdo: "\ f8ca"; }
+
+.fa-medal: antes de {
+  conteúdo: "\ f5a2"; }
+
+.fa-medapps: antes de {
+  conteúdo: "\ f3c6"; }
+
+.fa-medium: antes de {
+  conteúdo: "\ f23a"; }
+
+.fa-medium-m: antes de {
+  conteúdo: "\ f3c7"; }
+
+.fa-medkit: antes de {
+  conteúdo: "\ f0fa"; }
+
+.fa-medrt: antes de {
+  conteúdo: "\ f3c8"; }
+
+.fa-meetup: antes de {
+  conteúdo: "\ f2e0"; }
+
+.fa-megaport: antes de {
+  conteúdo: "\ f5a3"; }
+
+.fa-meh: antes de {
+  conteúdo: "\ f11a"; }
+
+.fa-meh-blank: antes de {
+  conteúdo: "\ f5a4"; }
+
+.fa-meh-rolling-eyes: before {
+  conteúdo: "\ f5a5"; }
+
+.fa-memory: before {
+  conteúdo: "\ f538"; }
+
+.fa-mendeley: antes de {
+  conteúdo: "\ f7b3"; }
+
+.fa-menorah: antes de {
+  conteúdo: "\ f676"; }
+
+.fa-mercúrio: antes de {
+  conteúdo: "\ f223"; }
+
+.fa-meteoro: antes de {
+  conteúdo: "\ f753"; }
+
+.fa-microchip: antes de {
+  conteúdo: "\ f2db"; }
+
+.fa-microfone: antes de {
+  conteúdo: "\ f130"; }
+
+.fa-microfone-alt: antes de {
+  conteúdo: "\ f3c9"; }
+
+.fa-microfone-alt-barra: antes de {
+  conteúdo: "\ f539"; }
+
+.fa-microfone-barra: antes de {
+  conteúdo: "\ f131"; }
+
+.fa-microscópio: antes de {
+  conteúdo: "\ f610"; }
+
+.fa-microsoft: antes de {
+  conteúdo: "\ f3ca"; }
+
+.fa-minus: antes de {
+  conteúdo: "\ f068"; }
+
+.fa-minus-circle: antes de {
+  conteúdo: "\ f056"; }
+
+.fa-minus-square: antes de {
+  conteúdo: "\ f146"; }
+
+.fa-mitten: antes de {
+  conteúdo: "\ f7b5"; }
+
+.fa-mix: antes de {
+  conteúdo: "\ f3cb"; }
+
+.fa-mixcloud: antes de {
+  conteúdo: "\ f289"; }
+
+.fa-mizuni: antes de {
+  conteúdo: "\ f3cc"; }
+
+.fa-mobile: antes de {
+  conteúdo: "\ f10b"; }
+
+.fa-mobile-alt: antes de {
+  conteúdo: "\ f3cd"; }
+
+.fa-modx: antes de {
+  conteúdo: "\ f285"; }
+
+.fa-monero: antes de {
+  conteúdo: "\ f3d0"; }
+
+.fa-money-bill: antes de {
+  conteúdo: "\ f0d6"; }
+
+.fa-money-bill-alt: antes de {
+  conteúdo: "\ f3d1"; }
+
+.fa-money-bill-wave: antes de {
+  conteúdo: "\ f53a"; }
+
+.fa-money-bill-wave-alt: antes de {
+  conteúdo: "\ f53b"; }
+
+.fa-money-check: antes de {
+  conteúdo: "\ f53c"; }
+
+.fa-money-check-alt: antes de {
+  conteúdo: "\ f53d"; }
+
+.fa-monumento: antes de {
+  conteúdo: "\ f5a6"; }
+
+.fa-moon: antes de {
+  conteúdo: "\ f186"; }
+
+.fa-mortar-pestle: before {
+  conteúdo: "\ f5a7"; }
+
+.fa-mosque: antes de {
+  conteúdo: "\ f678"; }
+
+.fa-motocicleta: antes de {
+  conteúdo: "\ f21c"; }
+
+.fa-mountain: antes de {
+  conteúdo: "\ f6fc"; }
+
+.fa-mouse: antes de {
+  conteúdo: "\ f8cc"; }
+
+.fa-mouse-pointer: before {
+  conteúdo: "\ f245"; }
+
+.fa-mug-hot: antes de {
+  conteúdo: "\ f7b6"; }
+
+.fa-music: before {
+  conteúdo: "\ f001"; }
+
+.fa-napster: antes de {
+  conteúdo: "\ f3d2"; }
+
+.fa-neos: antes de {
+  conteúdo: "\ f612"; }
+
+.fa-network-wired: before {
+  conteúdo: "\ f6ff"; }
+
+.fa-neuter: antes de {
+  conteúdo: "\ f22c"; }
+
+.fa-jornal: antes de {
+  conteúdo: "\ f1ea"; }
+
+.fa-nimblr: antes de {
+  conteúdo: "\ f5a8"; }
+
+.fa-node: antes de {
+  conteúdo: "\ f419"; }
+
+.fa-node-js: antes de {
+  conteúdo: "\ f3d3"; }
+
+.fa-not-equal: before {
+  conteúdo: "\ f53e"; }
+
+.fa-notes-medical: before {
+  conteúdo: "\ f481"; }
+
+.fa-npm: antes de {
+  conteúdo: "\ f3d4"; }
+
+.fa-ns8: antes de {
+  conteúdo: "\ f3d5"; }
+
+.fa-Nutritionix: antes de {
+  conteúdo: "\ f3d6"; }
+
+.fa-object-group: antes de {
+  conteúdo: "\ f247"; }
+
+.fa-object-ungroup: before {
+  conteúdo: "\ f248"; }
+
+.fa-odnoklassniki: antes {
+  conteúdo: "\ f263"; }
+
+.fa-odnoklassniki-square: antes de {
+  conteúdo: "\ f264"; }
+
+.fa-oil-can: before {
+  conteúdo: "\ f613"; }
+
+.fa-old-republic: antes de {
+  conteúdo: "\ f510"; }
+
+.fa-om: antes de {
+  conteúdo: "\ f679"; }
+
+.fa-opencart: antes de {
+  conteúdo: "\ f23d"; }
+
+.fa-openid: antes de {
+  conteúdo: "\ f19b"; }
+
+.fa-opera: antes de {
+  conteúdo: "\ f26a"; }
+
+.fa-optin-monster: antes de {
+  conteúdo: "\ f23c"; }
+
+.fa-orcid: antes de {
+  conteúdo: "\ f8d2"; }
+
+.fa-osi: antes de {
+  conteúdo: "\ f41a"; }
+
+.fa-otter: antes de {
+  conteúdo: "\ f700"; }
+
+.fa-outdent: antes de {
+  conteúdo: "\ f03b"; }
+
+.fa-page4: antes de {
+  conteúdo: "\ f3d7"; }
+
+.fa-pagelines: antes de {
+  conteúdo: "\ f18c"; }
+
+.fa-pager: antes de {
+  conteúdo: "\ f815"; }
+
+.fa-paint-brush: antes de {
+  conteúdo: "\ f1fc"; }
+
+.fa-rolo de pintura: antes de {
+  conteúdo: "\ f5aa"; }
+
+.fa-palette: before {
+  conteúdo: "\ f53f"; }
+
+.fa-palfed: antes de {
+  conteúdo: "\ f3d8"; }
+
+.fa-pallet: antes de {
+  conteúdo: "\ f482"; }
+
+.fa-paper-plane: antes de {
+  conteúdo: "\ f1d8"; }
+
+.fa-clipe de papel: antes de {
+  conteúdo: "\ f0c6"; }
+
+.fa-parachute-box: antes de {
+  conteúdo: "\ f4cd"; }
+
+.fa-paragraph: before {
+  conteúdo: "\ f1dd"; }
+
+.fa-parking: antes de {
+  conteúdo: "\ f540"; }
+
+.fa-passaporte: antes de {
+  conteúdo: "\ f5ab"; }
+
+.fa-pastafarianismo: antes de {
+  conteúdo: "\ f67b"; }
+
+.fa-paste: before {
+  conteúdo: "\ f0ea"; }
+
+.fa-patreon: antes de {
+  conteúdo: "\ f3d9"; }
+
+.fa-pause: antes de {
+  conteúdo: "\ f04c"; }
+
+.fa-pause-circle: antes de {
+  conteúdo: "\ f28b"; }
+
+.fa-paw: antes de {
+  conteúdo: "\ f1b0"; }
+
+.fa-paypal: antes de {
+  conteúdo: "\ f1ed"; }
+
+.fa-peace: before {
+  conteúdo: "\ f67c"; }
+
+.fa-pen: antes de {
+  conteúdo: "\ f304"; }
+
+.fa-pen-alt: antes de {
+  conteúdo: "\ f305"; }
+
+.fa-pen-fancy: antes de {
+  conteúdo: "\ f5ac"; }
+
+.fa-pen-nib: antes de {
+  conteúdo: "\ f5ad"; }
+
+.fa-pen-square: antes de {
+  conteúdo: "\ f14b"; }
+
+.fa-pencil-alt: antes de {
+  conteúdo: "\ f303"; }
+
+.fa-pencil-ruler: before {
+  conteúdo: "\ f5ae"; }
+
+.fa-penny-arcade: antes de {
+  conteúdo: "\ f704"; }
+
+.fa-people-carry: before {
+  conteúdo: "\ f4ce"; }
+
+.fa-pimenta-quente: antes de {
+  conteúdo: "\ f816"; }
+
+.fa-percent: before {
+  conteúdo: "\ f295"; }
+
+.fa-porcentagem: antes de {
+  conteúdo: "\ f541"; }
+
+.fa-periscope: antes de {
+  conteúdo: "\ f3da"; }
+
+.fa-person-booth: antes de {
+  conteúdo: "\ f756"; }
+
+.fa-phabricator: antes de {
+  conteúdo: "\ f3db"; }
+
+.fa-phoenix-framework: antes de {
+  conteúdo: "\ f3dc"; }
+
+.fa-phoenix-squadron: antes de {
+  conteúdo: "\ f511"; }
+
+.fa-phone: antes de {
+  conteúdo: "\ f095"; }
+
+.fa-phone-alt: antes de {
+  conteúdo: "\ f879"; }
+
+.fa-phone-slash: before {
+  conteúdo: "\ f3dd"; }
+
+.fa-phone-square: antes de {
+  conteúdo: "\ f098"; }
+
+.fa-phone-square-alt: antes de {
+  conteúdo: "\ f87b"; }
+
+.fa-phone-volume: before {
+  conteúdo: "\ f2a0"; }
+
+.fa-photo-video: antes de {
+  conteúdo: "\ f87c"; }
+
+.fa-php: antes de {
+  conteúdo: "\ f457"; }
+
+.fa-pied-piper: antes de {
+  conteúdo: "\ f2ae"; }
+
+.fa-pied-piper-alt: antes de {
+  conteúdo: "\ f1a8"; }
+
+.fa-pied-piper-hat: antes de {
+  conteúdo: "\ f4e5"; }
+
+.fa-pied-piper-pp: antes de {
+  conteúdo: "\ f1a7"; }
+
+.fa-mealheiro: antes de {
+  conteúdo: "\ f4d3"; }
+
+.fa-pills: before {
+  conteúdo: "\ f484"; }
+
+.fa-pinterest: antes de {
+  conteúdo: "\ f0d2"; }
+
+.fa-pinterest-p: antes de {
+  conteúdo: "\ f231"; }
+
+.fa-pinterest-square: antes de {
+  conteúdo: "\ f0d3"; }
+
+.fa-pizza-slice: antes de {
+  conteúdo: "\ f818"; }
+
+.fa-local-de-culto: antes de {
+  conteúdo: "\ f67f"; }
+
+.fa-plane: antes de {
+  conteúdo: "\ f072"; }
+
+.fa-avião-chegada: antes de {
+  conteúdo: "\ f5af"; }
+
+.fa-avião-partida: antes de {
+  conteúdo: "\ f5b0"; }
+
+.fa-play: antes de {
+  conteúdo: "\ f04b"; }
+
+.fa-play-circle: antes de {
+  conteúdo: "\ f144"; }
+
+.fa-playstation: antes de {
+  conteúdo: "\ f3df"; }
+
+.fa-plug: antes de {
+  conteúdo: "\ f1e6"; }
+
+.fa-plus: antes de {
+  conteúdo: "\ f067"; }
+
+.fa-plus-circle: antes de {
+  conteúdo: "\ f055"; }
+
+.fa mais quadrado: antes de {
+  conteúdo: "\ f0fe"; }
+
+.fa-podcast: antes de {
+  conteúdo: "\ f2ce"; }
+
+.fa-poll: antes de {
+  conteúdo: "\ f681"; }
+
+.fa-poll-h: antes de {
+  conteúdo: "\ f682"; }
+
+.fa-poo: antes de {
+  conteúdo: "\ f2fe"; }
+
+.fa-poo-storm: antes de {
+  conteúdo: "\ f75a"; }
+
+.fa-poop: antes de {
+  conteúdo: "\ f619"; }
+
+.fa-portrait: before {
+  conteúdo: "\ f3e0"; }
+
+.fa-sinal de libra: antes de {
+  conteúdo: "\ f154"; }
+
+.fa-power-off: antes de {
+  conteúdo: "\ f011"; }
+
+.fa-pray: antes de {
+  conteúdo: "\ f683"; }
+
+.fa-praying-hands: before {
+  conteúdo: "\ f684"; }
+
+.fa-prescrição: antes de {
+  conteúdo: "\ f5b1"; }
+
+.fa-prescrição-garrafa: antes de {
+  conteúdo: "\ f485"; }
+
+.fa-prescrição-garrafa-alt: antes de {
+  conteúdo: "\ f486"; }
+
+.fa-print: antes de {
+  conteúdo: "\ f02f"; }
+
+.fa-procedures: before {
+  conteúdo: "\ f487"; }
+
+.fa-product-hunt: antes de {
+  conteúdo: "\ f288"; }
+
+.fa-project-diagram: before {
+  conteúdo: "\ f542"; }
+
+.fa-push: before {
+  conteúdo: "\ f3e1"; }
+
+.fa-puzzle-piece: before {
+  conteúdo: "\ f12e"; }
+
+.fa-python: antes de {
+  conteúdo: "\ f3e2"; }
+
+.fa-qq: antes de {
+  conteúdo: "\ f1d6"; }
+
+.fa-qrcode: before {
+  conteúdo: "\ f029"; }
+
+.fa-question: antes de {
+  conteúdo: "\ f128"; }
+
+.fa-question-circle: antes de {
+  conteúdo: "\ f059"; }
+
+.fa-quadribol: antes de {
+  conteúdo: "\ f458"; }
+
+.fa-quinscape: antes de {
+  conteúdo: "\ f459"; }
+
+.fa-quora: antes de {
+  conteúdo: "\ f2c4"; }
+
+.fa-quote-left: before {
+  conteúdo: "\ f10d"; }
+
+.fa-quote-right: before {
+  conteúdo: "\ f10e"; }
+
+.fa-quran: antes de {
+  conteúdo: "\ f687"; }
+
+.fa-r-project: antes de {
+  conteúdo: "\ f4f7"; }
+
+.fa-radiação: antes de {
+  conteúdo: "\ f7b9"; }
+
+.fa-radiação-alt: antes de {
+  conteúdo: "\ f7ba"; }
+
+.fa-rainbow: antes de {
+  conteúdo: "\ f75b"; }
+
+.fa-random: antes de {
+  conteúdo: "\ f074"; }
+
+.fa-raspberry-pi: antes de {
+  conteúdo: "\ f7bb"; }
+
+.fa-ravelry: antes de {
+  conteúdo: "\ f2d9"; }
+
+.fa-react: antes de {
+  conteúdo: "\ f41b"; }
+
+.fa-reacteurope: antes de {
+  conteúdo: "\ f75d"; }
+
+.fa-readme: before {
+  conteúdo: "\ f4d5"; }
+
+.fa-rebel: antes de {
+  conteúdo: "\ f1d0"; }
+
+.fa-recibo: antes de {
+  conteúdo: "\ f543"; }
+
+.fa-record-vinyl: before {
+  conteúdo: "\ f8d9"; }
+
+.fa-recycle: before {
+  conteúdo: "\ f1b8"; }
+
+.fa-red-river: antes de {
+  conteúdo: "\ f3e3"; }
+
+.fa-reddit: antes de {
+  conteúdo: "\ f1a1"; }
+
+.fa-reddit-alien: antes de {
+  conteúdo: "\ f281"; }
+
+.fa-reddit-square: antes de {
+  conteúdo: "\ f1a2"; }
+
+.fa-redhat: antes de {
+  conteúdo: "\ f7bc"; }
+
+.fa-redo: antes de {
+  conteúdo: "\ f01e"; }
+
+.fa-redo-alt: antes de {
+  conteúdo: "\ f2f9"; }
+
+.fa registrado: antes de {
+  conteúdo: "\ f25d"; }
+
+.fa-remove-format: antes de {
+  conteúdo: "\ f87d"; }
+
+.fa-renren: antes de {
+  conteúdo: "\ f18b"; }
+
+.fa-reply: before {
+  conteúdo: "\ f3e5"; }
+
+.fa-reply-all: before {
+  conteúdo: "\ f122"; }
+
+.fa-replyd: before {
+  conteúdo: "\ f3e6"; }
+
+.fa-republican: antes de {
+  conteúdo: "\ f75e"; }
+
+.fa-researchgate: antes de {
+  conteúdo: "\ f4f8"; }
+
+.fa-resolving: before {
+  conteúdo: "\ f3e7"; }
+
+.fa-banheiro: antes de {
+  conteúdo: "\ f7bd"; }
+
+.fa-retweet: antes de {
+  conteúdo: "\ f079"; }
+
+.fa-rev: antes de {
+  conteúdo: "\ f5b2"; }
+
+.fa-ribbon: antes de {
+  conteúdo: "\ f4d6"; }
+
+.fa-ring: antes de {
+  conteúdo: "\ f70b"; }
+
+.fa-road: antes de {
+  conteúdo: "\ f018"; }
+
+.fa-robot: antes de {
+  conteúdo: "\ f544"; }
+
+.fa-rocket: antes de {
+  conteúdo: "\ f135"; }
+
+.fa-rocketchat: antes de {
+  conteúdo: "\ f3e8"; }
+
+.fa-rockrms: antes de {
+  conteúdo: "\ f3e9"; }
+
+.fa-route: antes de {
+  conteúdo: "\ f4d7"; }
+
+.fa-rss: antes de {
+  conteúdo: "\ f09e"; }
+
+.fa-rss-square: antes de {
+  conteúdo: "\ f143"; }
+
+.fa-rublo-sinal: antes de {
+  conteúdo: "\ f158"; }
+
+.fa-ruler: before {
+  conteúdo: "\ f545"; }
+
+.fa-ruler-combinado: antes de {
+  conteúdo: "\ f546"; }
+
+.fa-ruler-horizontal: antes de {
+  conteúdo: "\ f547"; }
+
+.fa-ruler-vertical: before {
+  conteúdo: "\ f548"; }
+
+.fa-running: before {
+  conteúdo: "\ f70c"; }
+
+.fa-rúpia-sinal: antes de {
+  conteúdo: "\ f156"; }
+
+.fa-sad-cry: before {
+  conteúdo: "\ f5b3"; }
+
+.fa-sad-tear: antes de {
+  conteúdo: "\ f5b4"; }
+
+.fa-safari: antes de {
+  conteúdo: "\ f267"; }
+
+.fa-salesforce: antes de {
+  conteúdo: "\ f83b"; }
+
+.fa-sass: antes de {
+  conteúdo: "\ f41e"; }
+
+.fa-satellite: antes de {
+  conteúdo: "\ f7bf"; }
+
+.fa-antena parabólica: antes de {
+  conteúdo: "\ f7c0"; }
+
+.fa-save: before {
+  conteúdo: "\ f0c7"; }
+
+.fa-schlix: antes de {
+  conteúdo: "\ f3ea"; }
+
+.fa-school: antes de {
+  conteúdo: "\ f549"; }
+
+chave de fenda .fa: antes de {
+  conteúdo: "\ f54a"; }
+
+.fa-scribd: antes de {
+  conteúdo: "\ f28a"; }
+
+.fa-scroll: antes de {
+  conteúdo: "\ f70e"; }
+
+.fa-sd-card: antes de {
+  conteúdo: "\ f7c2"; }
+
+.fa-search: before {
+  conteúdo: "\ f002"; }
+
+.fa-search-dollar: before {
+  conteúdo: "\ f688"; }
+
+.fa-search-location: before {
+  conteúdo: "\ f689"; }
+
+.fa-search-minus: before {
+  conteúdo: "\ f010"; }
+
+.fa-search-plus: antes de {
+  conteúdo: "\ f00e"; }
+
+.fa-searchengin: antes de {
+  conteúdo: "\ f3eb"; }
+
+.fa-seedling: before {
+  conteúdo: "\ f4d8"; }
+
+.fa-sellcast: antes de {
+  conteúdo: "\ f2da"; }
+
+.fa-sellsy: before {
+  conteúdo: "\ f213"; }
+
+.fa-server: antes de {
+  conteúdo: "\ f233"; }
+
+.fa-servicestack: antes de {
+  conteúdo: "\ f3ec"; }
+
+.fa-shapes: before {
+  conteúdo: "\ f61f"; }
+
+.fa-share: antes de {
+  conteúdo: "\ f064"; }
+
+.fa-share-alt: antes de {
+  conteúdo: "\ f1e0"; }
+
+.fa-share-alt-square: antes de {
+  conteúdo: "\ f1e1"; }
+
+.fa-share-square: antes de {
+  conteúdo: "\ f14d"; }
+
+.fa-shekel-sign: antes de {
+  conteúdo: "\ f20b"; }
+
+.fa-shield-alt: before {
+  conteúdo: "\ f3ed"; }
+
+.fa-ship: antes de {
+  conteúdo: "\ f21a"; }
+
+.fa-shipping-fast: before {
+  conteúdo: "\ f48b"; }
+
+.fa-shirtsinbulk: antes de {
+  conteúdo: "\ f214"; }
+
+.fa-shoe-prints: antes de {
+  conteúdo: "\ f54b"; }
+
+.fa-shopping-bag: antes de {
+  conteúdo: "\ f290"; }
+
+.fa-shopping-basket: antes de {
+  conteúdo: "\ f291"; }
+
+.fa-shopping-cart: antes de {
+  conteúdo: "\ f07a"; }
+
+.fa-shopware: antes de {
+  conteúdo: "\ f5b5"; }
+
+.fa-shower: antes de {
+  conteúdo: "\ f2cc"; }
+
+.fa-shuttle-van: antes de {
+  conteúdo: "\ f5b6"; }
+
+.fa-sign: before {
+  conteúdo: "\ f4d9"; }
+
+.fa-sign-in-alt: antes de {
+  conteúdo: "\ f2f6"; }
+
+.fa-sign-language: before {
+  conteúdo: "\ f2a7"; }
+
+.fa-sign-out-alt: before {
+  conteúdo: "\ f2f5"; }
+
+.fa-signal: before {
+  conteúdo: "\ f012"; }
+
+.fa-assinatura: antes de {
+  conteúdo: "\ f5b7"; }
+
+.fa-sim-card: antes de {
+  conteúdo: "\ f7c4"; }
+
+.fa-Simplybuilt: before {
+  conteúdo: "\ f215"; }
+
+.fa-sistrix: antes de {
+  conteúdo: "\ f3ee"; }
+
+.fa-sitemap: antes de {
+  conteúdo: "\ f0e8"; }
+
+.fa-sith: antes de {
+  conteúdo: "\ f512"; }
+
+.fa-skating: antes de {
+  conteúdo: "\ f7c5"; }
+
+.fa-sketch: before {
+  conteúdo: "\ f7c6"; }
+
+.fa-ski: antes de {
+  conteúdo: "\ f7c9"; }
+
+.fa-ski-nordic: antes de {
+  conteúdo: "\ f7ca"; }
+
+.fa-skull: antes de {
+  conteúdo: "\ f54c"; }
+
+.fa-skull-crossbones: before {
+  conteúdo: "\ f714"; }
+
+.fa-skyatlas: antes de {
+  conteúdo: "\ f216"; }
+
+.fa-skype: antes de {
+  conteúdo: "\ f17e"; }
+
+.fa-slack: antes de {
+  conteúdo: "\ f198"; }
+
+.fa-slack-hash: antes de {
+  conteúdo: "\ f3ef"; }
+
+.fa-barra: antes de {
+  conteúdo: "\ f715"; }
+
+.fa-sleigh: antes de {
+  conteúdo: "\ f7cc"; }
+
+.fa-sliders-h: antes de {
+  conteúdo: "\ f1de"; }
+
+.fa-slideshare: antes de {
+  conteúdo: "\ f1e7"; }
+
+.fa-smile: antes de {
+  conteúdo: "\ f118"; }
+
+.fa-smile-beam: antes de {
+  conteúdo: "\ f5b8"; }
+
+.fa-smile-wink: antes de {
+  conteúdo: "\ f4da"; }
+
+.fa-smog: antes de {
+  conteúdo: "\ f75f"; }
+
+.fa-smoking: antes de {
+  conteúdo: "\ f48d"; }
+
+.fa-smoking-ban: antes de {
+  conteúdo: "\ f54d"; }
+
+.fa-sms: antes de {
+  conteúdo: "\ f7cd"; }
+
+.fa-snapchat: antes de {
+  conteúdo: "\ f2ab"; }
+
+.fa-snapchat-ghost: antes de {
+  conteúdo: "\ f2ac"; }
+
+.fa-snapchat-square: antes de {
+  conteúdo: "\ f2ad"; }
+
+.fa-snowboard: antes de {
+  conteúdo: "\ f7ce"; }
+
+.fa-floco de neve: antes de {
+  conteúdo: "\ f2dc"; }
+
+.fa-snowman: antes de {
+  conteúdo: "\ f7d0"; }
+
+.fa-snowplow: antes de {
+  conteúdo: "\ f7d2"; }
+
+.fa-socks: before {
+  conteúdo: "\ f696"; }
+
+.fa-solar-panel: antes de {
+  conteúdo: "\ f5ba"; }
+
+.fa-sort: antes de {
+  conteúdo: "\ f0dc"; }
+
+.fa-sort-alpha-down: antes de {
+  conteúdo: "\ f15d"; }
+
+.fa-sort-alpha-down-alt: antes de {
+  conteúdo: "\ f881"; }
+
+.fa-sort-alpha-up: antes de {
+  conteúdo: "\ f15e"; }
+
+.fa-sort-alpha-up-alt: antes de {
+  conteúdo: "\ f882"; }
+
+.fa-sort-amount-down: antes de {
+  conteúdo: "\ f160"; }
+
+.fa-sort-amount-down-alt: antes de {
+  conteúdo: "\ f884"; }
+
+.fa-sort-amount-up: antes de {
+  conteúdo: "\ f161"; }
+
+.fa-sort-amount-up-alt: antes de {
+  conteúdo: "\ f885"; }
+
+.fa-sort-down: antes de {
+  conteúdo: "\ f0dd"; }
+
+.fa-sort-numeric-down: before {
+  conteúdo: "\ f162"; }
+
+.fa-sort-numeric-down-alt: before {
+  conteúdo: "\ f886"; }
+
+.fa-sort-numeric-up: antes de {
+  conteúdo: "\ f163"; }
+
+.fa-sort-numeric-up-alt: antes de {
+  conteúdo: "\ f887"; }
+
+.fa-sort-up: antes de {
+  conteúdo: "\ f0de"; }
+
+.fa-soundcloud: antes de {
+  conteúdo: "\ f1be"; }
+
+.fa-sourcetree: before {
+  conteúdo: "\ f7d3"; }
+
+.fa-spa: antes de {
+  conteúdo: "\ f5bb"; }
+
+.fa-space-shuttle: antes de {
+  conteúdo: "\ f197"; }
+
+.fa-speakap: antes de {
+  conteúdo: "\ f3f3"; }
+
+.fa-speaker-deck: before {
+  conteúdo: "\ f83c"; }
+
+.fa-verificação ortográfica: antes de {
+  conteúdo: "\ f891"; }
+
+.fa-spider: antes de {
+  conteúdo: "\ f717"; }
+
+.fa-spinner: antes de {
+  conteúdo: "\ f110"; }
+
+.fa-splotch: antes de {
+  conteúdo: "\ f5bc"; }
+
+.fa-spotify: antes de {
+  conteúdo: "\ f1bc"; }
+
+.fa-spray-can: antes de {
+  conteúdo: "\ f5bd"; }
+
+.fa-square: antes de {
+  conteúdo: "\ f0c8"; }
+
+.fa-square-full: antes de {
+  conteúdo: "\ f45c"; }
+
+.fa-square-root-alt: antes de {
+  conteúdo: "\ f698"; }
+
+.fa-squarespace: before {
+  conteúdo: "\ f5be"; }
+
+.fa-stack-exchange: before {
+  conteúdo: "\ f18d"; }
+
+.fa-stack-overflow: before {
+  conteúdo: "\ f16c"; }
+
+.fa-stackpath: antes de {
+  conteúdo: "\ f842"; }
+
+.fa-stamp: antes de {
+  conteúdo: "\ f5bf"; }
+
+.fa-star: antes de {
+  conteúdo: "\ f005"; }
+
+.fa-estrela e crescente: antes de {
+  conteúdo: "\ f699"; }
+
+.fa-star-half: before {
+  conteúdo: "\ f089"; }
+
+.fa-star-half-alt: before {
+  conteúdo: "\ f5c0"; }
+
+.fa-star-of-david: antes de {
+  conteúdo: "\ f69a"; }
+
+.fa-star-of-life: before {
+  conteúdo: "\ f621"; }
+
+.fa-staylinked: before {
+  conteúdo: "\ f3f5"; }
+
+.fa-steam: antes de {
+  conteúdo: "\ f1b6"; }
+
+.fa-steam-square: antes de {
+  conteúdo: "\ f1b7"; }
+
+.fa-steam-symbol: before {
+  conteúdo: "\ f3f6"; }
+
+.fa-step-backward: before {
+  conteúdo: "\ f048"; }
+
+.fa-step-forward: before {
+  conteúdo: "\ f051"; }
+
+.fa-estetoscópio: antes de {
+  conteúdo: "\ f0f1"; }
+
+.fa-sticker-mule: antes de {
+  conteúdo: "\ f3f7"; }
+
+.fa-sticky-note: antes de {
+  conteúdo: "\ f249"; }
+
+.fa-stop: antes de {
+  conteúdo: "\ f04d"; }
+
+.fa-stop-circle: antes de {
+  conteúdo: "\ f28d"; }
+
+.fa-cronômetro: antes de {
+  conteúdo: "\ f2f2"; }
+
+.fa-store: antes de {
+  conteúdo: "\ f54e"; }
+
+.fa-store-alt: antes de {
+  conteúdo: "\ f54f"; }
+
+.fa-strava: antes de {
+  conteúdo: "\ f428"; }
+
+.fa-stream: antes de {
+  conteúdo: "\ f550"; }
+
+.fa-street-view: antes de {
+  conteúdo: "\ f21d"; }
+
+.fa-tachado: antes de {
+  conteúdo: "\ f0cc"; }
+
+.fa-stripe: antes de {
+  conteúdo: "\ f429"; }
+
+.fa-stripe-s: antes de {
+  conteúdo: "\ f42a"; }
+
+.fa-stroopwafel: antes de {
+  conteúdo: "\ f551"; }
+
+.fa-studiovinari: antes de {
+  conteúdo: "\ f3f8"; }
+
+.fa-stumbleupon: antes de {
+  conteúdo: "\ f1a4"; }
+
+.fa-stumbleupon-circle: antes de {
+  conteúdo: "\ f1a3"; }
+
+.fa-subscrito: antes de {
+  conteúdo: "\ f12c"; }
+
+.fa-metrô: antes de {
+  conteúdo: "\ f239"; }
+
+.fa-mala: antes de {
+  conteúdo: "\ f0f2"; }
+
+.fa-mala-rolando: antes de {
+  conteúdo: "\ f5c1"; }
+
+.fa-sun: antes de {
+  conteúdo: "\ f185"; }
+
+.fa-superpoderes: antes de {
+  conteúdo: "\ f2dd"; }
+
+.fa-superscript: antes de {
+  conteúdo: "\ f12b"; }
+
+.fa-supple: antes de {
+  conteúdo: "\ f3f9"; }
+
+.fa-surpresa: antes de {
+  conteúdo: "\ f5c2"; }
+
+.fa-suse: antes de {
+  conteúdo: "\ f7d6"; }
+
+.fa-swatchbook: antes de {
+  conteúdo: "\ f5c3"; }
+
+.fa-swift: antes de {
+  conteúdo: "\ f8e1"; }
+
+.fa-swimmer: antes de {
+  conteúdo: "\ f5c4"; }
+
+.fa-swimming-pool: antes de {
+  conteúdo: "\ f5c5"; }
+
+.fa-symfony: before {
+  conteúdo: "\ f83d"; }
+
+.fa-sinagoga: antes de {
+  conteúdo: "\ f69b"; }
+
+.fa-sync: antes de {
+  conteúdo: "\ f021"; }
+
+.fa-sync-alt: antes de {
+  conteúdo: "\ f2f1"; }
+
+.fa-seringa: antes de {
+  conteúdo: "\ f48e"; }
+
+.fa-table: antes de {
+  conteúdo: "\ f0ce"; }
+
+.fa-tênis de mesa: antes de {
+  conteúdo: "\ f45d"; }
+
+.fa-tablet: antes de {
+  conteúdo: "\ f10a"; }
+
+.fa-tablet-alt: antes de {
+  conteúdo: "\ f3fa"; }
+
+.fa-tablets: antes de {
+  conteúdo: "\ f490"; }
+
+.fa-tacômetro-alt: antes de {
+  conteúdo: "\ f3fd"; }
+
+.fa-tag: antes de {
+  conteúdo: "\ f02b"; }
+
+.fa-tags: antes de {
+  conteúdo: "\ f02c"; }
+
+.fa-tape: antes de {
+  conteúdo: "\ f4db"; }
+
+.fa-tasks: before {
+  conteúdo: "\ f0ae"; }
+
+.fa-taxi: antes de {
+  conteúdo: "\ f1ba"; }
+
+.fa-teamspeak: antes de {
+  conteúdo: "\ f4f9"; }
+
+.fa-Dentes: antes de {
+  conteúdo: "\ f62e"; }
+
+.fa-teeth-open: before {
+  conteúdo: "\ f62f"; }
+
+.fa-telegrama: antes de {
+  conteúdo: "\ f2c6"; }
+
+.fa-telegram-plane: before {
+  conteúdo: "\ f3fe"; }
+
+.fa-temperature-high: before {
+  conteúdo: "\ f769"; }
+
+.fa-temperature-low: before {
+  conteúdo: "\ f76b"; }
+
+.fa-tencent-weibo: antes de {
+  conteúdo: "\ f1d5"; }
+
+.fa-tenge: antes de {
+  conteúdo: "\ f7d7"; }
+
+.fa-terminal: antes de {
+  conteúdo: "\ f120"; }
+
+.fa-text-height: before {
+  conteúdo: "\ f034"; }
+
+.fa-text-width: before {
+  conteúdo: "\ f035"; }
+
+.fa-th: antes de {
+  conteúdo: "\ f00a"; }
+
+.fa-th-large: antes de {
+  conteúdo: "\ f009"; }
+
+.fa-th-list: antes de {
+  conteúdo: "\ f00b"; }
+
+.fa-the-red-yeti: antes de {
+  conteúdo: "\ f69d"; }
+
+.fa-theater-masks: before {
+  conteúdo: "\ f630"; }
+
+.fa-themeco: antes de {
+  conteúdo: "\ f5c6"; }
+
+.fa-themeisle: antes de {
+  conteúdo: "\ f2b2"; }
+
+.fa-termômetro: antes de {
+  conteúdo: "\ f491"; }
+
+.fa-termômetro-vazio: antes de {
+  conteúdo: "\ f2cb"; }
+
+.fa-termômetro cheio: antes de {
+  conteúdo: "\ f2c7"; }
+
+.fa-termômetro-metade: antes de {
+  conteúdo: "\ f2c9"; }
+
+.fa-termômetro-trimestre: antes de {
+  conteúdo: "\ f2ca"; }
+
+.fa-termômetro-três quartos: antes de {
+  conteúdo: "\ f2c8"; }
+
+.fa-think-peaks: antes de {
+  conteúdo: "\ f731"; }
+
+.fa-thumbs-down: antes de {
+  conteúdo: "\ f165"; }
+
+.fa-thumbs-up: antes de {
+  conteúdo: "\ f164"; }
+
+.fa-thumbtack: antes de {
+  conteúdo: "\ f08d"; }
+
+.fa-ticket-alt: antes de {
+  conteúdo: "\ f3ff"; }
+
+.fa-times: antes de {
+  conteúdo: "\ f00d"; }
+
+.fa-times-circle: antes de {
+  conteúdo: "\ f057"; }
+
+.fa-tint: antes de {
+  conteúdo: "\ f043"; }
+
+.fa-tint-slash: antes de {
+  conteúdo: "\ f5c7"; }
+
+.fa-cansado: antes de {
+  conteúdo: "\ f5c8"; }
+
+.fa-toggle-off: antes de {
+  conteúdo: "\ f204"; }
+
+.fa-toggle-on: antes de {
+  conteúdo: "\ f205"; }
+
+.fa-toilet: before {
+  conteúdo: "\ f7d8"; }
+
+.fa-papel higiênico: antes de {
+  conteúdo: "\ f71e"; }
+
+.fa-toolbox: antes de {
+  conteúdo: "\ f552"; }
+
+.fa-tools: antes de {
+  conteúdo: "\ f7d9"; }
+
+.fa-dente: antes de {
+  conteúdo: "\ f5c9"; }
+
+.fa-torah: antes {
+  conteúdo: "\ f6a0"; }
+
+.fa-torii-gate: antes de {
+  conteúdo: "\ f6a1"; }
+
+.fa-tractor: antes de {
+  conteúdo: "\ f722"; }
+
+.fa-trade-federation: antes de {
+  conteúdo: "\ f513"; }
+
+.fa-trademark: before {
+  conteúdo: "\ f25c"; }
+
+.fa-traffic-light: antes de {
+  conteúdo: "\ f637"; }
+
+.fa-train: antes de {
+  conteúdo: "\ f238"; }
+
+.fa-tram: antes de {
+  conteúdo: "\ f7da"; }
+
+.fa-transgender: before {
+  conteúdo: "\ f224"; }
+
+.fa-transgender-alt: antes de {
+  conteúdo: "\ f225"; }
+
+.fa-trash: antes de {
+  conteúdo: "\ f1f8"; }
+
+.fa-trash-alt: antes de {
+  conteúdo: "\ f2ed"; }
+
+.fa-trash-restore: before {
+  conteúdo: "\ f829"; }
+
+.fa-trash-restore-alt: antes de {
+  conteúdo: "\ f82a"; }
+
+.fa-tree: antes de {
+  conteúdo: "\ f1bb"; }
+
+.fa-trello: before {
+  conteúdo: "\ f181"; }
+
+.fa-tripadvisor: antes de {
+  conteúdo: "\ f262"; }
+
+.fa-troféu: antes de {
+  conteúdo: "\ f091"; }
+
+.fa-truck: antes de {
+  conteúdo: "\ f0d1"; }
+
+.fa-truck-loading: before {
+  conteúdo: "\ f4de"; }
+
+.fa-truck-monster: before {
+  conteúdo: "\ f63b"; }
+
+.fa-truck-moving: before {
+  conteúdo: "\ f4df"; }
+
+.fa-truck-pickup: antes de {
+  conteúdo: "\ f63c"; }
+
+.fa-tshirt: antes de {
+  conteúdo: "\ f553"; }
+
+.fa-tty: antes de {
+  conteúdo: "\ f1e4"; }
+
+.fa-tumblr: antes de {
+  conteúdo: "\ f173"; }
+
+.fa-tumblr-square: antes de {
+  conteúdo: "\ f174"; }
+
+.fa-tv: antes de {
+  conteúdo: "\ f26c"; }
+
+.fa-twitch: antes de {
+  conteúdo: "\ f1e8"; }
+
+.fa-twitter: antes de {
+  conteúdo: "\ f099"; }
+
+.fa-twitter-square: antes de {
+  conteúdo: "\ f081"; }
+
+.fa-typo3: antes de {
+  conteúdo: "\ f42b"; }
+
+.fa-uber: antes de {
+  conteúdo: "\ f402"; }
+
+.fa-ubuntu: antes de {
+  conteúdo: "\ f7df"; }
+
+.fa-uikit: antes de {
+  conteúdo: "\ f403"; }
+
+.fa-umbraco: antes de {
+  conteúdo: "\ f8e8"; }
+
+.fa-umbrella: before {
+  conteúdo: "\ f0e9"; }
+
+.fa-umbrella-beach: antes de {
+  conteúdo: "\ f5ca"; }
+
+.fa-underline: before {
+  conteúdo: "\ f0cd"; }
+
+.fa-undo: antes de {
+  conteúdo: "\ f0e2"; }
+
+.fa-undo-alt: antes de {
+  conteúdo: "\ f2ea"; }
+
+.fa-uniregistry: before {
+  conteúdo: "\ f404"; }
+
+.fa-universal-access: antes de {
+  conteúdo: "\ f29a"; }
+
+.fa-university: antes de {
+  conteúdo: "\ f19c"; }
+
+.fa-unlink: before {
+  conteúdo: "\ f127"; }
+
+.fa-unlock: antes de {
+  conteúdo: "\ f09c"; }
+
+.fa-unlock-alt: antes de {
+  conteúdo: "\ f13e"; }
+
+.fa-untappd: antes de {
+  conteúdo: "\ f405"; }
+
+.fa-upload: antes de {
+  conteúdo: "\ f093"; }
+
+.fa-ups: antes de {
+  conteúdo: "\ f7e0"; }
+
+.fa-usb: antes de {
+  conteúdo: "\ f287"; }
+
+.fa-user: before {
+  conteúdo: "\ f007"; }
+
+.fa-user-alt: antes de {
+  conteúdo: "\ f406"; }
+
+.fa-user-alt-slash: antes de {
+  conteúdo: "\ f4fa"; }
+
+.fa-user-astronaut: before {
+  conteúdo: "\ f4fb"; }
+
+.fa-user-check: before {
+  conteúdo: "\ f4fc"; }
+
+.fa-user-circle: antes de {
+  conteúdo: "\ f2bd"; }
+
+.fa-user-clock: antes de {
+  conteúdo: "\ f4fd"; }
+
+.fa-user-cog: antes de {
+  conteúdo: "\ f4fe"; }
+
+.fa-user-edit: before {
+  conteúdo: "\ f4ff"; }
+
+.fa-user-friends: before {
+  conteúdo: "\ f500"; }
+
+.fa-user-graduate: antes de {
+  conteúdo: "\ f501"; }
+
+.fa-user-lesured: before {
+  conteúdo: "\ f728"; }
+
+.fa-user-lock: antes de {
+  conteúdo: "\ f502"; }
+
+.fa-user-md: antes de {
+  conteúdo: "\ f0f0"; }
+
+.fa-user-minus: before {
+  conteúdo: "\ f503"; }
+
+.fa-user-ninja: antes de {
+  conteúdo: "\ f504"; }
+
+.fa-user-nurse: antes de {
+  conteúdo: "\ f82f"; }
+
+.fa-user-plus: antes de {
+  conteúdo: "\ f234"; }
+
+.fa-user-secret: before {
+  conteúdo: "\ f21b"; }
+
+.fa-user-shield: before {
+  conteúdo: "\ f505"; }
+
+.fa-user-slash: before {
+  conteúdo: "\ f506"; }
+
+.fa-user-tag: antes de {
+  conteúdo: "\ f507"; }
+
+.fa-user-tie: antes de {
+  conteúdo: "\ f508"; }
+
+.fa-user-times: antes de {
+  conteúdo: "\ f235"; }
+
+.fa-users: antes de {
+  conteúdo: "\ f0c0"; }
+
+.fa-users-cog: antes de {
+  conteúdo: "\ f509"; }
+
+.fa-usps: antes de {
+  conteúdo: "\ f7e1"; }
+
+.fa-ussunnah: antes de {
+  conteúdo: "\ f407"; }
+
+.fa-utensílio-colher: antes de {
+  conteúdo: "\ f2e5"; }
+
+.fa-utensilios: antes de {
+  conteúdo: "\ f2e7"; }
+
+.fa-vaadin: antes de {
+  conteúdo: "\ f408"; }
+
+.fa-vetor-quadrado: antes de {
+  conteúdo: "\ f5cb"; }
+
+.fa-venus: antes de {
+  conteúdo: "\ f221"; }
+
+.fa-venus-double: antes de {
+  conteúdo: "\ f226"; }
+
+.fa-venus-mars: antes de {
+  conteúdo: "\ f228"; }
+
+.fa-viacoin: antes de {
+  conteúdo: "\ f237"; }
+
+.fa-viadeo: antes de {
+  conteúdo: "\ f2a9"; }
+
+.fa-viadeo-square: antes de {
+  conteúdo: "\ f2aa"; }
+
+.fa-vial: antes de {
+  conteúdo: "\ f492"; }
+
+.fa-vials: antes de {
+  conteúdo: "\ f493"; }
+
+.fa-viber: antes de {
+  conteúdo: "\ f409"; }
+
+.fa-video: antes de {
+  conteúdo: "\ f03d"; }
+
+.fa-video-slash: antes de {
+  conteúdo: "\ f4e2"; }
+
+.fa-vihara: antes de {
+  conteúdo: "\ f6a7"; }
+
+.fa-vimeo: antes de {
+  conteúdo: "\ f40a"; }
+
+.fa-vimeo-square: antes de {
+  conteúdo: "\ f194"; }
+
+.fa-vimeo-v: antes de {
+  conteúdo: "\ f27d"; }
+
+.fa-vine: antes de {
+  conteúdo: "\ f1ca"; }
+
+.fa-vk: antes de {
+  conteúdo: "\ f189"; }
+
+.fa-vnv: antes de {
+  conteúdo: "\ f40b"; }
+
+.fa-correio de voz: antes de {
+  conteúdo: "\ f897"; }
+
+.fa-volleyball-ball: antes de {
+  conteúdo: "\ f45f"; }
+
+.fa-volume-down: before {
+  conteúdo: "\ f027"; }
+
+.fa-volume-mute: antes de {
+  conteúdo: "\ f6a9"; }
+
+.fa-volume-off: antes de {
+  conteúdo: "\ f026"; }
+
+.fa-volume-up: antes de {
+  conteúdo: "\ f028"; }
+
+.fa-vote-yea: antes de {
+  conteúdo: "\ f772"; }
+
+.fa-vr -card: antes de {
+  conteúdo: "\ f729"; }
+
+.fa-vuejs: antes de {
+  conteúdo: "\ f41f"; }
+
+.fa-walking: before {
+  conteúdo: "\ f554"; }
+
+.fa-wallet: antes de {
+  conteúdo: "\ f555"; }
+
+.fa-warehouse: antes de {
+  conteúdo: "\ f494"; }
+
+.fa-water: antes de {
+  conteúdo: "\ f773"; }
+
+.fa-wave-square: antes de {
+  conteúdo: "\ f83e"; }
+
+.fa-waze: antes de {
+  conteúdo: "\ f83f"; }
+
+.fa-weebly: antes de {
+  conteúdo: "\ f5cc"; }
+
+.fa-weibo: antes de {
+  conteúdo: "\ f18a"; }
+
+.fa-weight: before {
+  conteúdo: "\ f496"; }
+
+.fa-peso-suspensão: antes de {
+  conteúdo: "\ f5cd"; }
+
+.fa-weixin: antes de {
+  conteúdo: "\ f1d7"; }
+
+.fa-whatsapp: antes de {
+  conteúdo: "\ f232"; }
+
+.fa-whatsapp-square: antes de {
+  conteúdo: "\ f40c"; }
+
+.fa-cadeira de rodas: antes de {
+  conteúdo: "\ f193"; }
+
+.fa-whmcs: antes de {
+  conteúdo: "\ f40d"; }
+
+.fa-wi-fi: antes de {
+  conteúdo: "\ f1eb"; }
+
+.fa-wikipedia-w: antes de {
+  conteúdo: "\ f266"; }
+
+.fa-wind: antes de {
+  conteúdo: "\ f72e"; }
+
+.fa-window-close: antes de {
+  conteúdo: "\ f410"; }
+
+.fa-window-maximize: before {
+  conteúdo: "\ f2d0"; }
+
+.fa-window-minimize: before {
+  conteúdo: "\ f2d1"; }
+
+.fa-window-restore: before {
+  conteúdo: "\ f2d2"; }
+
+.fa-windows: antes de {
+  conteúdo: "\ f17a"; }
+
+.fa-wine-bottle: antes de {
+  conteúdo: "\ f72f"; }
+
+.fa-wine-glass: antes de {
+  conteúdo: "\ f4e3"; }
+
+.fa-wine-glass-alt: antes de {
+  conteúdo: "\ f5ce"; }
+
+.fa-wix: antes de {
+  conteúdo: "\ f5cf"; }
+
+.fa-wizards-of-the-coast: antes de {
+  conteúdo: "\ f730"; }
+
+.fa-wolf-pack-battalion: antes de {
+  conteúdo: "\ f514"; }
+
+.fa-won-sign: before {
+  conteúdo: "\ f159"; }
+
+.fa-wordpress: before {
+  conteúdo: "\ f19a"; }
+
+.fa-wordpress-simple: before {
+  conteúdo: "\ f411"; }
+
+.fa-wpbeginner: antes de {
+  conteúdo: "\ f297"; }
+
+.fa-wpexplorer: antes de {
+  conteúdo: "\ f2de"; }
+
+.fa-wpforms: before {
+  conteúdo: "\ f298"; }
+
+.fa-wpressr: antes de {
+  conteúdo: "\ f3e4"; }
+
+.fa-wrench: antes de {
+  conteúdo: "\ f0ad"; }
+
+.fa-x-ray: antes de {
+  conteúdo: "\ f497"; }
+
+.fa-xbox: antes de {
+  conteúdo: "\ f412"; }
+
+.fa-xing: antes de {
+  conteúdo: "\ f168"; }
+
+.fa-xing-square: antes de {
+  conteúdo: "\ f169"; }
+
+.fa-y-combinator: antes de {
+  conteúdo: "\ f23b"; }
+
+.fa-yahoo: antes de {
+  conteúdo: "\ f19e"; }
+
+.fa-yammer: antes de {
+  conteúdo: "\ f840"; }
+
+.fa-yandex: antes de {
+  conteúdo: "\ f413"; }
+
+.fa-yandex-international: antes de {
+  conteúdo: "\ f414"; }
+
+.fa-yarn: antes de {
+  conteúdo: "\ f7e3"; }
+
+.fa-yelp: antes de {
+  conteúdo: "\ f1e9"; }
+
+.fa-iene-sinal: antes de {
+  conteúdo: "\ f157"; }
+
+.fa-yin-yang: antes de {
+  conteúdo: "\ f6ad"; }
+
+.fa-yoast: antes de {
+  conteúdo: "\ f2b1"; }
+
+.fa-youtube: antes de {
+  conteúdo: "\ f167"; }
+
+.fa-youtube-square: antes de {
+  conteúdo: "\ f431"; }
+
+.fa-zhihu: antes de {
+  conteúdo: "\ f63f"; }
+
+.sr-only {
+  fronteira: 0;
+  clipe: rect (0, 0, 0, 0);
+  altura: 1px;
+  margem: -1px;
+  estouro: oculto;
+  preenchimento: 0;
+  posição: absoluta;
+  largura: 1px; }
+
+.sr-only-focusable: active, .sr-only-focusable: focus {
+  clipe: automático;
+  altura: automático;
+  margem: 0;
+  estouro: visível;
+  posição: estática;
+  largura: automático; }
+@Tipo de letra {
+  família de fontes: 'Font Awesome 5 Brands';
+  estilo da fonte: normal;
+  peso da fonte: normal;
+  exibição de fonte: auto;
+  src: url ("../ webfonts / fa-marks-400.eot");
+  src: url ("../ webfonts / fa-marks-400.eot? #iefix") formato ("embedded-opentype"), formato url ("../ webfonts / fa-marks-400.woff2") ( "woff2"), formato url ("../ webfonts / fa-marks-400.woff") ("woff"), formato url ("../ webfonts / fa-marks-400.ttf") ("truetype "), formato de url (" ../ webfonts / fa-marks-400.svg # fontawesome ") (" svg "); }
+
+.fab {
+  família de fontes: 'Font Awesome 5 Brands'; }
+@Tipo de letra {
+  font-family: 'Font Awesome 5 Free';
+  estilo da fonte: normal;
+  peso da fonte: 400;
+  exibição de fonte: auto;
+  src: url ("../ webfonts / fa-regular-400.eot");
+  src: url ("../ webfonts / fa-regular-400.eot? #iefix") formato ("embedded-opentype"), formato url ("../ webfonts / fa-regular-400.woff2") ( "woff2"), formato url ("../ webfonts / fa-regular-400.woff") ("woff"), formato url ("../ webfonts / fa-regular-400.ttf") ("truetype "), formato url (" ../ webfonts / fa-regular-400.svg # fontawesome ") (" svg "); }
+
+.longe {
+  font-family: 'Font Awesome 5 Free';
+  peso da fonte: 400; }
+@Tipo de letra {
+  font-family: 'Font Awesome 5 Free';
+  estilo da fonte: normal;
+  peso da fonte: 900;
+  exibição de fonte: auto;
+  src: url ("../ webfonts / fa-solid-900.eot");
+  src: url ("../ webfonts / fa-solid-900.eot? #iefix") formato ("embedded-opentype"), formato url ("../ webfonts / fa-solid-900.woff2") ( formato "woff2"), url ("../ webfonts / fa-solid-900.woff") ("woff"), formato url ("../ webfonts / fa-solid-900.ttf") ("truetype "), formato de url (" ../ webfonts / fa-solid-900.svg # fontawesome ") (" svg "); }
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  peso da fonte: 900; }
